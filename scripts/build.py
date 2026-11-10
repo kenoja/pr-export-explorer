@@ -1,13 +1,3 @@
-"""Build the Puerto Rico export dataframe and the interactive visualization.
-
-In:   data/raw/iepr/pr_exports_hs4.csv      (from download_data.py)
-      data/raw/atlas/products_hs92.csv, data/raw/atlas/product_year_hs92.csv
-      scripts/template.html, fonts/*.woff2
-Out:  data/pr_exports.csv                   one row per product per year
-      pr_exports.html                       the two linked charts (open in a browser, works offline)
-
-Run from the repository folder:  python scripts/build.py
-"""
 import base64
 import json
 from pathlib import Path
@@ -15,27 +5,26 @@ from pathlib import Path
 import pandas as pd
 from plotly.offline import get_plotlyjs
 
-MIN_VALUE_M = 0.1  # drop product-years below $0.1M: mostly one-off shipments
-
-# Sector colours from the V2A palette (v2aconsulting.com): the three biggest export sectors get
-# the three brand colours (orange, bahia blue, celeste); the others get tints and shades of them.
+# set colours (V2A palette)
 SECTOR_COLORS = {
-    "Chemicals": "#FF8C6B", "Machinery": "#1D4289", "Electronics": "#41B5E5",
-    "Agriculture": "#BE6A50", "Minerals": "#0D2145", "Metals": "#768DB7",
-    "Textiles": "#3188AC", "Stone": "#FFBAA5", "Vehicles": "#8CD2EF", "Other": "#6C757D",
+    "Chemicals": "#FF8C6B",
+    "Machinery": "#1D4289",
+    "Electronics": "#41B5E5",
+    "Agriculture": "#BE6A50",
+    "Minerals": "#0D2145",
+    "Metals": "#768DB7",
+    "Textiles": "#3188AC",
+    "Stone": "#FFBAA5",
+    "Vehicles": "#8CD2EF",
+    "Other": "#6C757D",
 }
 
-# Inter (free, SIL Open Font License) stands in for V2A's body font, which is licensed and
-# can't be shared. The files are embedded in the page so it also looks right offline.
-FONTS = {400: "Inter-Regular.woff2", 600: "Inter-SemiBold.woff2"}
 
+# load data
 
-# ---------------------------------------------------------------- load
-
-def load_pr_exports(raw: Path) -> pd.DataFrame:
-    """Puerto Rico exports per year x HS4 product, one column per destination group (US$)."""
-    df = pd.read_csv(raw / "iepr" / "pr_exports_hs4.csv", dtype={"hs4": str})
-    complete = df[df.months_reported == 12]  # 2002 and the current year are partial years
+def load_pr_exports(raw_dir: Path) -> pd.DataFrame:
+    raw = pd.read_csv(raw_dir / "iepr" / "pr_exports_hs4.csv", dtype={"hs4": str})
+    complete = raw[raw.months_reported == 12]  # (some partial years)
     wide = (complete.pivot_table(index=["year", "hs4"], columns="destination",
                                  values="value_usd", aggfunc="sum", fill_value=0)
                     .reset_index().rename_axis(columns=None))
@@ -43,20 +32,19 @@ def load_pr_exports(raw: Path) -> pd.DataFrame:
     return wide
 
 
-def load_world(raw: Path) -> pd.DataFrame:
-    """World exports and PCI per year x HS92 product (goods only), from the Atlas."""
-    products = pd.read_csv(raw / "atlas" / "products_hs92.csv", dtype=str)
-    product_year = pd.read_csv(raw / "atlas" / "product_year_hs92.csv")
+def load_world(raw_dir: Path) -> pd.DataFrame:
+    products = pd.read_csv(raw_dir / "atlas" / "products_hs92.csv", dtype=str)
+    product_year = pd.read_csv(raw_dir / "atlas" / "product_year_hs92.csv")
     world = product_year.merge(products, on="productId")
     world = world[world.productType == "good"]
     return world.rename(columns={"exportValue": "world"})[["year", "code", "nameShortEn", "sector", "world", "pci"]]
 
 
-# ---------------------------------------------------------------- transform
+# transform
 
+# RCA = PR share of product / world's share of product
 def rca(value: pd.Series, total_by_year: pd.Series, world: pd.Series, world_by_year: pd.Series,
         year: pd.Series) -> pd.Series:
-    """Balassa RCA = (Puerto Rico's share of product p) / (world's share of product p)."""
     return (value / year.map(total_by_year)) / (world / year.map(world_by_year))
 
 
@@ -64,7 +52,7 @@ def build_dataframe(pr: pd.DataFrame, world: pd.DataFrame) -> pd.DataFrame:
     years = sorted(set(pr.year) & set(world.year))
     pr, world = pr[pr.year.isin(years)], world[world.year.isin(years)]
 
-    # Puerto Rico totals include every product, also the few that don't match an Atlas code.
+    # Puerto Rico totals include every product
     pr_totals = pr.groupby("year")[["foreign", "total"]].sum()
     world_total = world.groupby("year").world.sum()
 
@@ -83,12 +71,11 @@ def build_dataframe(pr: pd.DataFrame, world: pd.DataFrame) -> pd.DataFrame:
         "rca_foreign": df.rca_foreign.round(4), "rca_total": df.rca_total.round(4),
         "valuePCI": df.pci.round(4),
     })
-    out = out[(out.exports_total_M >= MIN_VALUE_M) & out.valuePCI.notna()]
+    out = out[(out.exports_total_M >= 0.1) & out.valuePCI.notna()]
     return out.sort_values(["year", "code"]).reset_index(drop=True)
 
-
+# check dataframe
 def check(df: pd.DataFrame) -> None:
-    """Fail loud if the dataframe breaks basic expectations."""
     assert not df.duplicated(["year", "code"]).any(), "duplicate product-year rows"
     gap = (df.exports_total_M - df.exports_foreign_M - df.exports_us_M).abs()
     assert (gap <= 0.002).all(), "total != foreign + U.S. (beyond rounding)"
@@ -99,10 +86,10 @@ def check(df: pd.DataFrame) -> None:
               f"U.S. ${g.exports_us_M.sum() / 1e3:5.1f}B")
 
 
-# ---------------------------------------------------------------- visualization
+# visualization
 
 def page_data(df: pd.DataFrame) -> dict:
-    """Compact, column-wise data for the page (keeps the HTML file small)."""
+    """column-wise data for the page"""
     products = df.drop_duplicates("code").sort_values("code")[["code", "productName", "sector"]]
     index = {c: i for i, c in enumerate(products.code)}
     by_sector = df.groupby("sector").exports_total_M.sum().sort_values(ascending=False)
@@ -119,33 +106,34 @@ def page_data(df: pd.DataFrame) -> dict:
     }
 
 
+# font (Inter) embedded in the page, so it also works offline
 def font_css(fonts_dir: Path) -> str:
-    """@font-face rules with the font files embedded as data URLs."""
     rules = []
-    for weight, file in FONTS.items():
+    for weight, file in {400: "Inter-Regular.woff2", 600: "Inter-SemiBold.woff2"}.items():
         data = base64.b64encode((fonts_dir / file).read_bytes()).decode()
         rules.append(f"@font-face {{ font-family: 'Inter'; font-weight: {weight}; "
                      f"src: url(data:font/woff2;base64,{data}) format('woff2'); }}")
     return "\n".join(rules)
 
 
-def write_html(df: pd.DataFrame, template: Path, fonts_dir: Path, out: Path) -> None:
+def write_html(df: pd.DataFrame, template: Path, fonts_dir: Path, out_html: Path) -> None:
     html = (template.read_text(encoding="utf-8")
             .replace("/*FONTS*/", font_css(fonts_dir))
             .replace("/*PLOTLY_JS*/", get_plotlyjs())
             .replace("/*DATA*/null", json.dumps(page_data(df), separators=(",", ":"))))
-    out.write_text(html, encoding="utf-8")
+    out_html.write_text(html, encoding="utf-8")
 
-
-# ---------------------------------------------------------------- main
 
 def main() -> None:
-    root = Path(__file__).resolve().parents[1]  # the repository folder
-    raw = root / "data" / "raw"
-    out_csv, out_html = root / "data" / "pr_exports.csv", root / "pr_exports.html"
+    # paths (repository folder = one level above this script)
+    root = Path(__file__).resolve().parents[1]
+    raw_dir = root / "data" / "raw"
+    out_csv = root / "data" / "pr_exports.csv"
+    out_html = root / "pr_exports.html"
 
-    df = build_dataframe(load_pr_exports(raw), load_world(raw))
+    df = build_dataframe(load_pr_exports(raw_dir), load_world(raw_dir))
     check(df)
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(out_csv, index=False)
     write_html(df, root / "scripts" / "template.html", root / "fonts", out_html)
     print(f"Dataframe: {len(df)} rows -> {out_csv}\nVisualization -> {out_html}")
