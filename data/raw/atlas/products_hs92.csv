@@ -1,0 +1,1249 @@
+productId,code,nameShortEn,productType,sector
+product-HS92-650,0101,Horses,good,Agriculture
+product-HS92-651,0102,Bovine,good,Agriculture
+product-HS92-652,0103,Swine,good,Agriculture
+product-HS92-653,0104,Sheep,good,Agriculture
+product-HS92-654,0105,Fowl,good,Agriculture
+product-HS92-655,0106,Other live animals,good,Agriculture
+product-HS92-656,0201,Beef,good,Agriculture
+product-HS92-657,0202,Beef (frozen),good,Agriculture
+product-HS92-658,0203,Pork,good,Agriculture
+product-HS92-659,0204,Lamb,good,Agriculture
+product-HS92-660,0205,Horse meat,good,Agriculture
+product-HS92-661,0206,Edible offal,good,Agriculture
+product-HS92-662,0207,Poultry,good,Agriculture
+product-HS92-663,0208,Other meat,good,Agriculture
+product-HS92-664,0209,Pig and poultry fat,good,Agriculture
+product-HS92-665,0210,Preserved meat,good,Agriculture
+product-HS92-666,0301,Live Fish,good,Agriculture
+product-HS92-667,0302,"Fish, excluding fillets",good,Agriculture
+product-HS92-668,0303,"Frozen fish, excluding fillets",good,Agriculture
+product-HS92-669,0304,Fish fillets,good,Agriculture
+product-HS92-670,0305,Preserved fish,good,Agriculture
+product-HS92-671,0306,Crustaceans,good,Agriculture
+product-HS92-672,0307,Molluscs,good,Agriculture
+product-HS92-673,0401,Milk,good,Agriculture
+product-HS92-674,0402,"Milk, concentrated",good,Agriculture
+product-HS92-675,0403,Fermented milk products,good,Agriculture
+product-HS92-676,0404,Whey,good,Agriculture
+product-HS92-677,0405,Butter,good,Agriculture
+product-HS92-678,0406,Cheese,good,Agriculture
+product-HS92-679,0407,"Eggs, in shell",good,Agriculture
+product-HS92-680,0408,Egg yolks,good,Agriculture
+product-HS92-681,0409,Honey,good,Agriculture
+product-HS92-682,0410,"Edible animal products, n.e.c.",good,Agriculture
+product-HS92-683,0501,"Human hair, unworked",good,Agriculture
+product-HS92-684,0502,Brushmaking hair,good,Agriculture
+product-HS92-685,0503,Horsehair,good,Agriculture
+product-HS92-686,0504,"Animal guts, except fish",good,Agriculture
+product-HS92-687,0505,Feathers and down,good,Agriculture
+product-HS92-688,0506,"Bones, simply prepared",good,Agriculture
+product-HS92-689,0507,Whalebone & horns,good,Agriculture
+product-HS92-690,0508,Coral and shells,good,Agriculture
+product-HS92-691,0509,Sponges of animal origin,good,Agriculture
+product-HS92-692,0510,Animal products used in pharmaceuticals,good,Agriculture
+product-HS92-693,0511,Animal products n.e.c.,good,Agriculture
+product-HS92-694,0601,Flower bulbs,good,Agriculture
+product-HS92-695,0602,Other live plants,good,Agriculture
+product-HS92-696,0603,Cut flowers,good,Agriculture
+product-HS92-697,0604,Other parts of plants,good,Agriculture
+product-HS92-698,0701,Potatoes,good,Agriculture
+product-HS92-699,0702,Tomatoes,good,Agriculture
+product-HS92-700,0703,"Onions, shallots, garlic",good,Agriculture
+product-HS92-701,0704,"Cabbages, cauliflowers, broccoli",good,Agriculture
+product-HS92-702,0705,Lettuce,good,Agriculture
+product-HS92-703,0706,Carrots & turnips,good,Agriculture
+product-HS92-704,0707,Cucumbers,good,Agriculture
+product-HS92-705,0708,Legumes,good,Agriculture
+product-HS92-706,0709,Other vegetables,good,Agriculture
+product-HS92-707,0710,Frozen vegetables,good,Agriculture
+product-HS92-708,0711,"Vegetables, provisionally preserved",good,Agriculture
+product-HS92-709,0712,"Vegetables, dried",good,Agriculture
+product-HS92-710,0713,"Legumes, dried",good,Agriculture
+product-HS92-711,0714,Tubers,good,Agriculture
+product-HS92-712,0801,Cashew nuts & coconuts,good,Agriculture
+product-HS92-713,0802,Other nuts,good,Agriculture
+product-HS92-714,0803,Bananas and plantains,good,Agriculture
+product-HS92-715,0804,"Avocados, pineapples, mangos, etc.",good,Agriculture
+product-HS92-716,0805,Citrus fruit,good,Agriculture
+product-HS92-717,0806,Grapes,good,Agriculture
+product-HS92-718,0807,Melons and papayas,good,Agriculture
+product-HS92-719,0808,Apples & pears,good,Agriculture
+product-HS92-720,0809,Peaches & cherries,good,Agriculture
+product-HS92-721,0810,Other fresh fruit,good,Agriculture
+product-HS92-722,0811,"Fruits and nuts, frozen",good,Agriculture
+product-HS92-723,0812,"Fruits and nuts, provisionally preserved",good,Agriculture
+product-HS92-724,0813,"Fruits, dried",good,Agriculture
+product-HS92-725,0814,Peel of citrus fruit or melons,good,Agriculture
+product-HS92-726,0901,Coffee,good,Agriculture
+product-HS92-727,0902,Tea,good,Agriculture
+product-HS92-728,0903,Mate,good,Agriculture
+product-HS92-729,0904,Pepper,good,Agriculture
+product-HS92-730,0905,Vanilla,good,Agriculture
+product-HS92-731,0906,Cinnamon,good,Agriculture
+product-HS92-732,0907,Cloves,good,Agriculture
+product-HS92-733,0908,Nutmeg,good,Agriculture
+product-HS92-734,0909,"Anise, fennel, etc.",good,Agriculture
+product-HS92-735,0910,Spices,good,Agriculture
+product-HS92-736,1001,Wheat and meslin,good,Agriculture
+product-HS92-737,1002,Rye,good,Agriculture
+product-HS92-738,1003,Barley,good,Agriculture
+product-HS92-739,1004,Oats,good,Agriculture
+product-HS92-740,1005,Corn,good,Agriculture
+product-HS92-741,1006,Rice,good,Agriculture
+product-HS92-742,1007,Grain sorghum,good,Agriculture
+product-HS92-743,1008,Other cereals,good,Agriculture
+product-HS92-744,1101,Wheat or meslin flour,good,Agriculture
+product-HS92-745,1102,Cereal flours,good,Agriculture
+product-HS92-746,1103,Cereal meals,good,Agriculture
+product-HS92-747,1104,Worked cereal grains,good,Agriculture
+product-HS92-748,1105,Potato flour,good,Agriculture
+product-HS92-749,1106,Flour of dried legumes,good,Agriculture
+product-HS92-750,1107,Malt,good,Agriculture
+product-HS92-751,1108,Starches,good,Agriculture
+product-HS92-752,1109,Wheat gluten,good,Agriculture
+product-HS92-753,1201,Soya beans,good,Agriculture
+product-HS92-754,1202,Peanuts,good,Agriculture
+product-HS92-755,1203,Copra,good,Agriculture
+product-HS92-756,1204,Linseed,good,Agriculture
+product-HS92-757,1205,Rape or colza seeds,good,Agriculture
+product-HS92-758,1206,Sunflower seeds,good,Agriculture
+product-HS92-759,1207,Other oil seeds,good,Agriculture
+product-HS92-760,1208,Flours of oil seeds,good,Agriculture
+product-HS92-761,1209,Seeds used for sowing,good,Agriculture
+product-HS92-762,1210,Hop cones,good,Agriculture
+product-HS92-763,1211,"Plants used in perfumery, pharmacy or insecticide",good,Agriculture
+product-HS92-764,1212,Seaweeds & edible vegetable products,good,Agriculture
+product-HS92-765,1213,Cereal straw and husks,good,Agriculture
+product-HS92-766,1214,Forage products,good,Agriculture
+product-HS92-767,1301,Lac,good,Agriculture
+product-HS92-768,1302,Vegetable saps and extracts,good,Agriculture
+product-HS92-769,1401,Vegetable materials used for plaiting,good,Agriculture
+product-HS92-770,1402,Vegetable materials used as stuffing,good,Agriculture
+product-HS92-771,1403,Vegetable materials used for brooms,good,Agriculture
+product-HS92-772,1404,Vegetable products n.e.c.,good,Agriculture
+product-HS92-773,1501,"Pig and poultry fat, rendered",good,Agriculture
+product-HS92-774,1502,"Bovine, sheep and goat fats",good,Agriculture
+product-HS92-775,1503,"Lard oil, tallow oil etc.",good,Agriculture
+product-HS92-776,1504,Fish oils,good,Agriculture
+product-HS92-777,1505,Wool grease,good,Agriculture
+product-HS92-778,1506,Other animal fats and oils,good,Agriculture
+product-HS92-779,1507,Soybean oil,good,Agriculture
+product-HS92-780,1508,Peanut oil,good,Agriculture
+product-HS92-781,1509,Olive oil,good,Agriculture
+product-HS92-782,1510,"Olive oil, blended",good,Agriculture
+product-HS92-783,1511,Palm oil,good,Agriculture
+product-HS92-784,1512,Sunflower seed oil,good,Agriculture
+product-HS92-785,1513,Coconut & palm kernel oil,good,Agriculture
+product-HS92-786,1514,"Rapeseed, colza or mustard oil,",good,Agriculture
+product-HS92-787,1515,Other vegetable fats and oils,good,Agriculture
+product-HS92-788,1516,"Vegetable fats, hydrogenated",good,Agriculture
+product-HS92-789,1517,Margarine,good,Agriculture
+product-HS92-790,1518,"Animal or vegetable fats and oils, processed",good,Agriculture
+product-HS92-791,1519,Stearic acid,good,Agriculture
+product-HS92-792,1520,Glycerol,good,Agriculture
+product-HS92-793,1521,Vegetable waxes and beeswax,good,Agriculture
+product-HS92-794,1522,Degras and wax residues,good,Agriculture
+product-HS92-795,1601,Sausages,good,Agriculture
+product-HS92-796,1602,Other prepared or preserved meat,good,Agriculture
+product-HS92-797,1603,Extracts and juices of meat or fish,good,Agriculture
+product-HS92-798,1604,Prepared or preserved fish,good,Agriculture
+product-HS92-799,1605,Prepared aquatic invertibrates,good,Agriculture
+product-HS92-800,1701,Sugarcane & sucrose,good,Agriculture
+product-HS92-801,1702,Other sugars,good,Agriculture
+product-HS92-802,1703,Molasses,good,Agriculture
+product-HS92-803,1704,Confectionery sugar,good,Agriculture
+product-HS92-804,1801,Cocoa beans,good,Agriculture
+product-HS92-805,1802,Cocoa residues,good,Agriculture
+product-HS92-806,1803,Cocoa paste,good,Agriculture
+product-HS92-807,1804,Cocoa butter,good,Agriculture
+product-HS92-808,1805,Cocoa powder,good,Agriculture
+product-HS92-809,1806,Chocolates,good,Agriculture
+product-HS92-810,1901,Malt extract,good,Agriculture
+product-HS92-811,1902,Pasta,good,Agriculture
+product-HS92-812,1903,Tapioca,good,Agriculture
+product-HS92-813,1904,Cereal foods,good,Agriculture
+product-HS92-814,1905,Bakery products,good,Agriculture
+product-HS92-815,2001,Pickled fruits and vegetables,good,Agriculture
+product-HS92-816,2002,"Tomatoes, prepared or preserved",good,Agriculture
+product-HS92-817,2003,"Mushrooms, prepared or preserved",good,Agriculture
+product-HS92-818,2004,"Other vegetables, frozen",good,Agriculture
+product-HS92-819,2005,"Other vegetables, prepared or preserved",good,Agriculture
+product-HS92-820,2006,"Vegetables, fruits and nuts, preserved by sugar",good,Agriculture
+product-HS92-821,2007,"Jams, jellies and marmalades",good,Agriculture
+product-HS92-822,2008,"Fruits and nuts, otherwise prepared",good,Agriculture
+product-HS92-823,2009,Fruit juices,good,Agriculture
+product-HS92-824,2101,Coffee extracts,good,Agriculture
+product-HS92-825,2102,Yeasts,good,Agriculture
+product-HS92-826,2103,Sauces and seasonings,good,Agriculture
+product-HS92-827,2104,Soups and broths,good,Agriculture
+product-HS92-828,2105,Ice cream,good,Agriculture
+product-HS92-829,2106,Food preparations n.e.c.,good,Agriculture
+product-HS92-830,2201,Waters,good,Agriculture
+product-HS92-831,2202,"Waters, flavored or sweetened",good,Agriculture
+product-HS92-832,2203,Beer,good,Agriculture
+product-HS92-833,2204,Wine,good,Agriculture
+product-HS92-834,2205,"Wine, flavored",good,Agriculture
+product-HS92-835,2206,Other fermented beverages,good,Agriculture
+product-HS92-836,2207,Ethyl alcohol > 80%,good,Agriculture
+product-HS92-837,2208,Spirits < 80% alcohol,good,Agriculture
+product-HS92-838,2209,Vinegars,good,Agriculture
+product-HS92-839,2301,"Flours of fish, for animal feed",good,Agriculture
+product-HS92-840,2302,Cereal residues,good,Agriculture
+product-HS92-841,2303,Starch residues,good,Agriculture
+product-HS92-842,2304,Solid soybean residues,good,Agriculture
+product-HS92-843,2305,Solid peanut residues,good,Agriculture
+product-HS92-844,2306,Solid vegetable oil and fat residues,good,Agriculture
+product-HS92-845,2307,Wine lees,good,Agriculture
+product-HS92-846,2308,Vegetable materials for animal feeding,good,Agriculture
+product-HS92-847,2309,Animal feed,good,Agriculture
+product-HS92-848,2401,Unmanufactured tobacco,good,Agriculture
+product-HS92-849,2402,Cigars and cigarettes,good,Agriculture
+product-HS92-850,2403,Other manufactured tobacco,good,Agriculture
+product-HS92-851,2501,Salt,good,Minerals
+product-HS92-852,2502,Unroasted iron pyrites,good,Minerals
+product-HS92-853,2503,"Sulphur, crude",good,Minerals
+product-HS92-854,2504,Natural graphite,good,Minerals
+product-HS92-855,2505,Natural sands,good,Minerals
+product-HS92-856,2506,Quartz,good,Minerals
+product-HS92-857,2507,Kaolin,good,Minerals
+product-HS92-858,2508,Clays,good,Minerals
+product-HS92-859,2509,Chalk,good,Minerals
+product-HS92-860,2510,Natural calcium phosphates,good,Minerals
+product-HS92-861,2511,Natural barium sulfate,good,Minerals
+product-HS92-862,2512,Siliceous fossil meals and earths,good,Minerals
+product-HS92-863,2513,Natural abrasives,good,Minerals
+product-HS92-864,2514,Slate,good,Minerals
+product-HS92-865,2515,Marble,good,Minerals
+product-HS92-866,2516,Granite,good,Minerals
+product-HS92-867,2517,Gravel,good,Minerals
+product-HS92-868,2518,Dolomite,good,Minerals
+product-HS92-869,2519,Natural magnesia,good,Minerals
+product-HS92-870,2520,Gypsum,good,Minerals
+product-HS92-871,2521,Limstone,good,Minerals
+product-HS92-872,2522,Quicklime,good,Minerals
+product-HS92-873,2523,Cements,good,Minerals
+product-HS92-874,2524,Asbestos,good,Minerals
+product-HS92-875,2525,Mica,good,Minerals
+product-HS92-876,2526,Natural steatite,good,Minerals
+product-HS92-877,2527,Natural cryolite,good,Minerals
+product-HS92-878,2528,Natural borates,good,Minerals
+product-HS92-879,2529,Feldspar,good,Minerals
+product-HS92-880,2530,Mineral substances n.e.c.,good,Minerals
+product-HS92-881,2601,Iron ores and concentrates,good,Minerals
+product-HS92-882,2602,Manganese > 47% by weight,good,Minerals
+product-HS92-883,2603,Copper ore,good,Minerals
+product-HS92-884,2604,Nickel ore,good,Minerals
+product-HS92-885,2605,Cobalt ore,good,Minerals
+product-HS92-886,2606,Aluminum ore,good,Minerals
+product-HS92-887,2607,Lead ore,good,Minerals
+product-HS92-888,2608,Zinc ore,good,Minerals
+product-HS92-889,2609,Tin ore,good,Minerals
+product-HS92-890,2610,Chromium ore,good,Minerals
+product-HS92-891,2611,Tungsten ore,good,Minerals
+product-HS92-892,2612,Uranium ore,good,Minerals
+product-HS92-893,2613,Molybdenum ore,good,Minerals
+product-HS92-894,2614,Titanium ore,good,Minerals
+product-HS92-895,2615,Zirconium ore,good,Minerals
+product-HS92-896,2616,Precious metal ores,good,Minerals
+product-HS92-897,2617,Other ores,good,Minerals
+product-HS92-898,2618,Granulated iron or steel slag,good,Minerals
+product-HS92-899,2619,Iron or steel slag,good,Minerals
+product-HS92-900,2620,"Slag, ash and residues containing metals",good,Minerals
+product-HS92-901,2621,Other slag and ash,good,Minerals
+product-HS92-902,2701,Coal,good,Minerals
+product-HS92-903,2702,Lignite,good,Minerals
+product-HS92-904,2703,Peat,good,Minerals
+product-HS92-905,2704,Coke,good,Minerals
+product-HS92-906,2705,Non-petroleum gases,good,Minerals
+product-HS92-907,2706,"Tar distilled from coal, lignite etc.",good,Minerals
+product-HS92-908,2707,Oils etc. from high temperature coal tar,good,Minerals
+product-HS92-909,2708,Pitch and pitch coke,good,Minerals
+product-HS92-910,2709,"Petroleum oils, crude",good,Minerals
+product-HS92-911,2710,"Petroleum oils, refined",good,Minerals
+product-HS92-912,2711,Petroleum gases,good,Minerals
+product-HS92-913,2712,Petroleum jelly,good,Minerals
+product-HS92-914,2713,Petroleum coke,good,Minerals
+product-HS92-915,2714,"Bitumen and asphalt, natural",good,Minerals
+product-HS92-916,2715,Bituminous mixtures,good,Minerals
+product-HS92-917,2716,Electrical energy,good,Minerals
+product-HS92-918,2801,Iodine,good,Chemicals
+product-HS92-919,2802,"Sulfur, sublimed or precipitated",good,Chemicals
+product-HS92-920,2803,Carbon,good,Chemicals
+product-HS92-921,2804,Silicon & rare gases,good,Chemicals
+product-HS92-922,2805,Rare-earth metals,good,Chemicals
+product-HS92-923,2806,Hydrochloric acid,good,Chemicals
+product-HS92-924,2807,"Sulfiric acid, oleum",good,Chemicals
+product-HS92-925,2808,Sulfonitric acids,good,Chemicals
+product-HS92-926,2809,Phosphoric acid etc.,good,Chemicals
+product-HS92-927,2810,Oxides of boron; boric acids,good,Chemicals
+product-HS92-928,2811,Other inorganic acids,good,Chemicals
+product-HS92-929,2812,Halides of nonmetals,good,Chemicals
+product-HS92-930,2813,Sulfides of nonmetals,good,Chemicals
+product-HS92-931,2814,Ammonia,good,Chemicals
+product-HS92-932,2815,Sodium hydroxide,good,Chemicals
+product-HS92-933,2816,Hydroxides or peroxides of magnesium,good,Chemicals
+product-HS92-934,2817,Zinc oxide or peroxide,good,Chemicals
+product-HS92-935,2818,Aluminum oxide,good,Chemicals
+product-HS92-936,2819,Chromium oxides and hydroxides,good,Chemicals
+product-HS92-937,2820,Manganese oxides,good,Chemicals
+product-HS92-938,2821,Iron oxides and hydroxides,good,Chemicals
+product-HS92-939,2822,Cobalt oxides and hydroxides,good,Chemicals
+product-HS92-940,2823,Titanium oxides,good,Chemicals
+product-HS92-941,2824,Lead oxides,good,Chemicals
+product-HS92-942,2825,"Metal base oxides, n.e.c.",good,Chemicals
+product-HS92-943,2826,Flourides,good,Chemicals
+product-HS92-944,2827,"Chlorides, bromides, iodides etc.",good,Chemicals
+product-HS92-945,2828,Hyopchlorites,good,Chemicals
+product-HS92-946,2829,Sodium chlorate,good,Chemicals
+product-HS92-947,2830,Sulfides; polysulfides,good,Chemicals
+product-HS92-948,2831,Dithionites and sulfoxylates,good,Chemicals
+product-HS92-949,2832,Sulfites,good,Chemicals
+product-HS92-950,2833,Sulfates,good,Chemicals
+product-HS92-951,2834,"Nitrites, nitrates",good,Chemicals
+product-HS92-952,2835,Phosphates,good,Chemicals
+product-HS92-953,2836,Carbonates,good,Chemicals
+product-HS92-954,2837,Cyanides,good,Chemicals
+product-HS92-955,2838,"Fulminates, cyanates and thiocyanates",good,Chemicals
+product-HS92-956,2839,Silicates,good,Chemicals
+product-HS92-957,2840,Borates,good,Chemicals
+product-HS92-958,2841,Salts of oxometallic acids,good,Chemicals
+product-HS92-959,2842,Other salts of acids,good,Chemicals
+product-HS92-960,2843,Compounds of precious metals,good,Chemicals
+product-HS92-961,2844,Uranium,good,Chemicals
+product-HS92-962,2845,Non-radioactive isotopes,good,Chemicals
+product-HS92-963,2846,Compounds of rare-earth metals,good,Chemicals
+product-HS92-964,2847,Hydrogen peroxide,good,Chemicals
+product-HS92-965,2848,Phosphides,good,Chemicals
+product-HS92-966,2849,Carbides,good,Chemicals
+product-HS92-967,2850,"Hydrides, nitrides, azides, silicides and borides",good,Chemicals
+product-HS92-968,2851,"Inorganic compounds, liquid or compressed air",good,Chemicals
+product-HS92-969,2901,Acyclic hydrocarbons,good,Chemicals
+product-HS92-970,2902,Cyclic hydrocarbons,good,Chemicals
+product-HS92-971,2903,Halogenated derivatives of hydrocarbons,good,Chemicals
+product-HS92-972,2904,"Sulfonated, nitrated derivatives of hydrocarbons",good,Chemicals
+product-HS92-973,2905,Acyclic alcohols,good,Chemicals
+product-HS92-974,2906,Cyclic alcohols,good,Chemicals
+product-HS92-975,2907,"Phenols, phenol-alcohols",good,Chemicals
+product-HS92-976,2908,Derivatives of phenols,good,Chemicals
+product-HS92-977,2909,Ethers,good,Chemicals
+product-HS92-978,2910,Epoxides,good,Chemicals
+product-HS92-979,2911,Acetals and hemiacetals,good,Chemicals
+product-HS92-980,2912,Aldehydes,good,Chemicals
+product-HS92-981,2913,Derivatives of aldehydes,good,Chemicals
+product-HS92-982,2914,Ketones and quinones,good,Chemicals
+product-HS92-983,2915,Saturated acyclic monocarboxylic acids,good,Chemicals
+product-HS92-984,2916,Unsaturated acyclic monocarboxylic acids,good,Chemicals
+product-HS92-985,2917,Polycarboxylic acids,good,Chemicals
+product-HS92-986,2918,Carboxylic acids with additional oxygen function,good,Chemicals
+product-HS92-987,2919,Phosporic esters,good,Chemicals
+product-HS92-988,2920,Esters of other inorganic acids of nonmetals,good,Chemicals
+product-HS92-989,2921,Amine-function compounds,good,Chemicals
+product-HS92-990,2922,Oxygen-function amino-compounds,good,Chemicals
+product-HS92-991,2923,Quaternary ammonium salts and hydroxides,good,Chemicals
+product-HS92-992,2924,Carboxyamide-function compounds,good,Chemicals
+product-HS92-993,2925,Carboxyimide-function compounds,good,Chemicals
+product-HS92-994,2926,Nitrile-function compounds,good,Chemicals
+product-HS92-995,2927,"Diazo-, azo-, or azoxy-compounds",good,Chemicals
+product-HS92-996,2928,Organix derivatives of hydrazine,good,Chemicals
+product-HS92-997,2929,Isocyanates,good,Chemicals
+product-HS92-998,2930,Organo-sulfur compounds,good,Chemicals
+product-HS92-999,2931,Other organo-inorganic compounds,good,Chemicals
+product-HS92-1000,2932,Heterocyclic compounds with oxygen hetero-atom(s) only,good,Chemicals
+product-HS92-1001,2933,Heterocyclic compounds with nitrogen hetero-atom(s) only,good,Chemicals
+product-HS92-1002,2934,Nucleic acids and their salts,good,Chemicals
+product-HS92-1003,2935,Sulfonamides,good,Chemicals
+product-HS92-1004,2936,Vitamins,good,Chemicals
+product-HS92-1005,2937,Hormones,good,Chemicals
+product-HS92-1006,2938,Glycosides,good,Chemicals
+product-HS92-1007,2939,Vegetable alkaloids,good,Chemicals
+product-HS92-1008,2940,"Other sugars, chemically pure",good,Chemicals
+product-HS92-1009,2941,Antibiotics,good,Chemicals
+product-HS92-1010,2942,Other organic compounds,good,Chemicals
+product-HS92-1011,3001,Heparin for therapeutic use,good,Chemicals
+product-HS92-1012,3002,Serums and vaccines,good,Chemicals
+product-HS92-1013,3003,"Medicaments, not packaged",good,Chemicals
+product-HS92-1014,3004,"Medicaments, packaged",good,Chemicals
+product-HS92-1015,3005,"Wadding, gauze and bandages",good,Chemicals
+product-HS92-1016,3006,Pharmaceutical goods,good,Chemicals
+product-HS92-1017,3101,Animal or vegetable fertilizers,good,Chemicals
+product-HS92-1018,3102,Nitrogenous fertilizers,good,Chemicals
+product-HS92-1019,3103,Phosphatic fertilizers,good,Chemicals
+product-HS92-1020,3104,Potassic fertilizers,good,Chemicals
+product-HS92-1021,3105,Mixed fertilizers,good,Chemicals
+product-HS92-1022,3201,Vegetable tanning extracts,good,Chemicals
+product-HS92-1023,3202,Synthetic tanning substances,good,Chemicals
+product-HS92-1024,3203,Coloring matter of animal or vegetable origin,good,Chemicals
+product-HS92-1025,3204,Synthetic organic coloring matter,good,Chemicals
+product-HS92-1026,3205,Color lakes,good,Chemicals
+product-HS92-1027,3206,Other coloring matter,good,Chemicals
+product-HS92-1028,3207,Prepared pigments,good,Chemicals
+product-HS92-1029,3208,"Paints and varnishes, nonaqueous",good,Chemicals
+product-HS92-1030,3209,"Paints and varnishes, aqueous",good,Chemicals
+product-HS92-1031,3210,Other paints and varnishes,good,Chemicals
+product-HS92-1032,3211,Prepared driers,good,Chemicals
+product-HS92-1033,3212,"Pigments, nonaqueous",good,Chemicals
+product-HS92-1034,3213,Artists' colors,good,Chemicals
+product-HS92-1035,3214,Glaziers' putty,good,Chemicals
+product-HS92-1036,3215,Ink,good,Chemicals
+product-HS92-1037,3301,Essential oils,good,Chemicals
+product-HS92-1038,3302,Mixtures of odoriferous substances,good,Chemicals
+product-HS92-1039,3303,Perfumes,good,Chemicals
+product-HS92-1040,3304,Make-up preparations,good,Chemicals
+product-HS92-1041,3305,Hair products,good,Chemicals
+product-HS92-1042,3306,Dental hygiene products,good,Chemicals
+product-HS92-1043,3307,Toiletries,good,Chemicals
+product-HS92-1044,3401,Soap,good,Chemicals
+product-HS92-1045,3402,Cleaning products,good,Chemicals
+product-HS92-1046,3403,Lubricants,good,Chemicals
+product-HS92-1047,3404,Artificial and prepared waxes,good,Chemicals
+product-HS92-1048,3405,Polishes and creams,good,Chemicals
+product-HS92-1049,3406,Candles,good,Chemicals
+product-HS92-1050,3407,Modeling pastes,good,Chemicals
+product-HS92-1051,3501,Casein,good,Chemicals
+product-HS92-1052,3502,Albumins,good,Chemicals
+product-HS92-1053,3503,Gelatin,good,Chemicals
+product-HS92-1054,3504,Peptones,good,Chemicals
+product-HS92-1055,3505,Dextrins and other modified starches,good,Chemicals
+product-HS92-1056,3506,Glues and adhesives,good,Chemicals
+product-HS92-1057,3507,Enzymes,good,Chemicals
+product-HS92-1058,3601,Propellant powders,good,Chemicals
+product-HS92-1059,3602,"Prepared explosives, except gunpowder",good,Chemicals
+product-HS92-1060,3603,Detonators,good,Chemicals
+product-HS92-1061,3604,Fireworks,good,Chemicals
+product-HS92-1062,3605,Matches,good,Chemicals
+product-HS92-1063,3606,Ferrocerium and other pyrophoric alloys,good,Chemicals
+product-HS92-1064,3701,Photographic plates,good,Chemicals
+product-HS92-1065,3702,Photographic film in rolls,good,Chemicals
+product-HS92-1066,3703,Photographic paper,good,Chemicals
+product-HS92-1067,3704,"Photographic film, not developed",good,Chemicals
+product-HS92-1068,3705,"Photographic film, developed",good,Chemicals
+product-HS92-1069,3706,Motion-picture film,good,Chemicals
+product-HS92-1070,3707,Chemical preparations for photographic uses,good,Chemicals
+product-HS92-1071,3801,Artificial graphite,good,Chemicals
+product-HS92-1072,3802,Activated carbon,good,Chemicals
+product-HS92-1073,3803,Tall oil,good,Chemicals
+product-HS92-1074,3804,Residual lyes,good,Chemicals
+product-HS92-1075,3805,Turpentines,good,Chemicals
+product-HS92-1076,3806,Rosin and resin acids,good,Chemicals
+product-HS92-1077,3807,Wood tar and oils,good,Chemicals
+product-HS92-1078,3808,"Insecticides, rodenticides, fungicides, etc.",good,Chemicals
+product-HS92-1079,3809,Finishing agents,good,Chemicals
+product-HS92-1080,3810,Pickling preparations for metal surfaces,good,Chemicals
+product-HS92-1081,3811,Anti-knock,good,Chemicals
+product-HS92-1082,3812,Stabilizers for rubber or plastic,good,Chemicals
+product-HS92-1083,3813,Preparations for fire extinguishers,good,Chemicals
+product-HS92-1084,3814,Organic composite solvents and thinners,good,Chemicals
+product-HS92-1085,3815,Catalytic preparations,good,Chemicals
+product-HS92-1086,3816,Refractory cements,good,Chemicals
+product-HS92-1087,3817,Mixed alkylbenzenes,good,Chemicals
+product-HS92-1088,3818,Chemical elements for electronics,good,Chemicals
+product-HS92-1089,3819,Hydraulic fluids,good,Chemicals
+product-HS92-1090,3820,Antifreezing preparation,good,Chemicals
+product-HS92-1091,3821,Prepared culture media for micro-organisms,good,Chemicals
+product-HS92-1092,3822,Diagnostic or laboratory reagents,good,Chemicals
+product-HS92-1093,3823,Industrial monocarboxylic fatty acids,good,Chemicals
+product-HS92-1094,3901,Polymers of ethylene,good,Chemicals
+product-HS92-1095,3902,Polymers of propylene,good,Chemicals
+product-HS92-1096,3903,Polymers of styrene,good,Chemicals
+product-HS92-1097,3904,Polymers of vinyl chloride,good,Chemicals
+product-HS92-1098,3905,Polymers of vinyl acetate,good,Chemicals
+product-HS92-1099,3906,Acrylic polymers,good,Chemicals
+product-HS92-1100,3907,Polyacetals,good,Chemicals
+product-HS92-1101,3908,Polyamides,good,Chemicals
+product-HS92-1102,3909,Amino-resins,good,Chemicals
+product-HS92-1103,3910,Silicones in primary forms,good,Chemicals
+product-HS92-1104,3911,Petroleum resins,good,Chemicals
+product-HS92-1105,3912,Cellulose n.e.c.,good,Chemicals
+product-HS92-1106,3913,Natural polymers,good,Chemicals
+product-HS92-1107,3914,Ion-exchangers based on polymers,good,Chemicals
+product-HS92-1108,3915,Plastic waste,good,Chemicals
+product-HS92-1109,3916,Monofilament,good,Chemicals
+product-HS92-1110,3917,Plastic tubes and fittings,good,Chemicals
+product-HS92-1111,3918,Plastic floor coverings,good,Chemicals
+product-HS92-1112,3919,Self-adhesive plastic sheets,good,Chemicals
+product-HS92-1113,3920,"Other plates of plastics, noncellular and not reinforced",good,Chemicals
+product-HS92-1114,3921,"Other plastic plates, sheets etc.",good,Chemicals
+product-HS92-1115,3922,"Baths, sinks etc.",good,Chemicals
+product-HS92-1116,3923,Packing lids,good,Chemicals
+product-HS92-1117,3924,Plastic household articles,good,Chemicals
+product-HS92-1118,3925,Plastic builders' ware,good,Chemicals
+product-HS92-1119,3926,Other articles of plastic,good,Chemicals
+product-HS92-1120,4001,Natural rubber,good,Chemicals
+product-HS92-1121,4002,Synthetic rubber,good,Chemicals
+product-HS92-1122,4003,Reclaimed rubber,good,Chemicals
+product-HS92-1123,4004,Scrap of rubber,good,Chemicals
+product-HS92-1124,4005,Compounded rubber,good,Chemicals
+product-HS92-1125,4006,Unvulcanized rubber rods,good,Chemicals
+product-HS92-1126,4007,Vulcanized rubber thread and cord,good,Chemicals
+product-HS92-1127,4008,Vulcanized rubber plates,good,Chemicals
+product-HS92-1128,4009,Vulcanized rubber tubes,good,Chemicals
+product-HS92-1129,4010,Conveyor belts of vulcanized rubber,good,Chemicals
+product-HS92-1130,4011,New pneumatic tires of rubber,good,Chemicals
+product-HS92-1131,4012,Used pneumatic tires of rubber,good,Chemicals
+product-HS92-1132,4013,Rubber inner tubes,good,Chemicals
+product-HS92-1133,4014,Rubber hygenic or pharmeceutical items,good,Chemicals
+product-HS92-1134,4015,Vulcanized rubber articles of apparel,good,Chemicals
+product-HS92-1135,4016,Other articles of vulcanized rubber,good,Chemicals
+product-HS92-1136,4017,Hard rubber,good,Chemicals
+product-HS92-1137,4101,Raw hides of bovines or equines,good,Agriculture
+product-HS92-1138,4102,Raw skins of sheep or lambs,good,Agriculture
+product-HS92-1139,4103,Other raw hides and skins,good,Agriculture
+product-HS92-1140,4104,Tanned hides of bovines or equines,good,Agriculture
+product-HS92-1141,4105,Tanned sheepskins,good,Agriculture
+product-HS92-1142,4106,Tanned skins of other animals,good,Agriculture
+product-HS92-1143,4107,Bovine leather further prepared,good,Agriculture
+product-HS92-1144,4108,Chamois leather,good,Agriculture
+product-HS92-1145,4109,Patent leather,good,Agriculture
+product-HS92-1146,4110,Waste of leather,good,Agriculture
+product-HS92-1147,4111,Composition leather,good,Agriculture
+product-HS92-1148,4201,Saddlery and harnesses,good,Agriculture
+product-HS92-1149,4202,Trunks or cases,good,Agriculture
+product-HS92-1150,4203,Leather apparel,good,Agriculture
+product-HS92-1151,4204,Articles of leather for technical uses,good,Agriculture
+product-HS92-1152,4205,Other articles of leather,good,Agriculture
+product-HS92-1153,4206,Articles of gut,good,Agriculture
+product-HS92-1154,4301,Other raw furskins,good,Agriculture
+product-HS92-1155,4302,Other tanned furskins,good,Agriculture
+product-HS92-1156,4303,Furskin apparel,good,Agriculture
+product-HS92-1157,4304,Artificial fur,good,Agriculture
+product-HS92-1158,4401,Fuel wood,good,Agriculture
+product-HS92-1159,4402,Wood charcoal,good,Agriculture
+product-HS92-1160,4403,Wood in the rough,good,Agriculture
+product-HS92-1161,4404,Strips and other pieces of wood,good,Agriculture
+product-HS92-1162,4405,Wood wool or flour,good,Agriculture
+product-HS92-1163,4406,Wooden railway ties,good,Agriculture
+product-HS92-1164,4407,Wood sawn lengthwise,good,Agriculture
+product-HS92-1165,4408,Sheets for veneering for plywood,good,Agriculture
+product-HS92-1166,4409,Wood shaped along its edges,good,Agriculture
+product-HS92-1167,4410,Particle board and similar board,good,Agriculture
+product-HS92-1168,4411,Fiberboard of wood,good,Agriculture
+product-HS92-1169,4412,Plywood,good,Agriculture
+product-HS92-1170,4413,Densified wood,good,Agriculture
+product-HS92-1171,4414,Wooden frames,good,Agriculture
+product-HS92-1172,4415,Packing boxes,good,Agriculture
+product-HS92-1173,4416,"Casks, barrels, etc. of wood",good,Agriculture
+product-HS92-1174,4417,Wooden tools,good,Agriculture
+product-HS92-1175,4418,Wood carpentry for construction,good,Agriculture
+product-HS92-1176,4419,Wooden kitchenware,good,Agriculture
+product-HS92-1177,4420,"Wood marquetry, ornaments, etc.",good,Agriculture
+product-HS92-1178,4421,Other articles of wood,good,Agriculture
+product-HS92-1179,4501,"Natural cork, raw",good,Agriculture
+product-HS92-1180,4502,"Natural cork, debacked",good,Agriculture
+product-HS92-1181,4503,Articles of natural cork,good,Agriculture
+product-HS92-1182,4504,Agglomerated cork,good,Agriculture
+product-HS92-1183,4601,Products of plaiting materials,good,Agriculture
+product-HS92-1184,4602,Basketwork,good,Agriculture
+product-HS92-1185,4701,Mechanical woodpulp,good,Agriculture
+product-HS92-1186,4702,"Chemical woodpulp, dissolving grade",good,Agriculture
+product-HS92-1187,4703,"Chemical woodpulp, soda or sulfate",good,Agriculture
+product-HS92-1188,4704,"Chemical woodpulp, sulfite",good,Agriculture
+product-HS92-1189,4705,Semichemical woodpulp,good,Agriculture
+product-HS92-1190,4706,Pulps of recovered paper fibers,good,Agriculture
+product-HS92-1191,4707,Paper waste,good,Agriculture
+product-HS92-1192,4801,Newsprint,good,Agriculture
+product-HS92-1193,4802,Paper used for graphic purposes,good,Agriculture
+product-HS92-1194,4803,Tissue,good,Agriculture
+product-HS92-1195,4804,Uncoated kraft paper and paperboard,good,Agriculture
+product-HS92-1196,4805,Other uncoated paper and paperboard,good,Agriculture
+product-HS92-1197,4806,Transparent paper,good,Agriculture
+product-HS92-1198,4807,Uncoated composite paper,good,Agriculture
+product-HS92-1199,4808,Corrugated paper and paperboard,good,Agriculture
+product-HS92-1200,4809,Carbon paper,good,Agriculture
+product-HS92-1201,4810,"Paper and paperboard, coated with kaolin",good,Agriculture
+product-HS92-1202,4811,"Cellulose wadding, coated",good,Agriculture
+product-HS92-1203,4812,Filter blocks of paper pulp,good,Agriculture
+product-HS92-1204,4813,Cigarette paper,good,Agriculture
+product-HS92-1205,4814,Wallpaper,good,Agriculture
+product-HS92-1206,4815,Floor coverings of paper,good,Agriculture
+product-HS92-1207,4816,Other carbon paper,good,Agriculture
+product-HS92-1208,4817,Letterstock,good,Agriculture
+product-HS92-1209,4818,Toilet paper,good,Agriculture
+product-HS92-1210,4819,Cardboard packing containers,good,Agriculture
+product-HS92-1211,4820,Notebooks,good,Agriculture
+product-HS92-1212,4821,Paper labels,good,Agriculture
+product-HS92-1213,4822,"Bobbins, spools, cops of paper",good,Agriculture
+product-HS92-1214,4823,Other paper cut to size,good,Agriculture
+product-HS92-1215,4901,"Books, brochures etc.",good,Agriculture
+product-HS92-1216,4902,"Newspapers, journals and periodicals",good,Agriculture
+product-HS92-1217,4903,Children's books,good,Agriculture
+product-HS92-1218,4904,"Music, printed or in manuscript",good,Agriculture
+product-HS92-1219,4905,Maps,good,Agriculture
+product-HS92-1220,4906,"Architectural, engineering, etc. drawings",good,Agriculture
+product-HS92-1221,4907,Unused stamps,good,Agriculture
+product-HS92-1222,4908,Transfers (decalcomanias),good,Agriculture
+product-HS92-1223,4909,Printed or illustrated postcards,good,Agriculture
+product-HS92-1224,4910,Calendars,good,Agriculture
+product-HS92-1225,4911,Other printed matter,good,Agriculture
+product-HS92-1226,5001,Silkworm cocoons,good,Textiles
+product-HS92-1227,5002,Raw silk,good,Textiles
+product-HS92-1228,5003,Silk waste,good,Textiles
+product-HS92-1229,5004,Silk yarn,good,Textiles
+product-HS92-1230,5005,Yarn from silk waste,good,Textiles
+product-HS92-1231,5006,"Silk yarn, for retail sale",good,Textiles
+product-HS92-1232,5007,Woven silk fabrics,good,Textiles
+product-HS92-1233,5101,Wool,good,Textiles
+product-HS92-1234,5102,Animal hair,good,Textiles
+product-HS92-1235,5103,Wool or animal hair waste,good,Textiles
+product-HS92-1236,5104,Garnetted stock of wool or animal hair,good,Textiles
+product-HS92-1237,5105,"Wool, combed",good,Textiles
+product-HS92-1238,5106,"Yarn of carded wool, not for retail sale",good,Textiles
+product-HS92-1239,5107,"Yarn of combed wool, not for retail sale",good,Textiles
+product-HS92-1240,5108,"Yarn of animal hair, not for retail sale",good,Textiles
+product-HS92-1241,5109,"Yarn of wool or animal hair, for retail sale",good,Textiles
+product-HS92-1242,5110,Yarn of coarse animal hair or of horsehair,good,Textiles
+product-HS92-1243,5111,Woven fabrics of carded wool,good,Textiles
+product-HS92-1244,5112,Woven fabrics of combed wool,good,Textiles
+product-HS92-1245,5113,Woven fabrics of coarse animal hair,good,Textiles
+product-HS92-1246,5201,Raw cotton,good,Textiles
+product-HS92-1247,5202,Cotton waste,good,Textiles
+product-HS92-1248,5203,"Cotton, carded or combed",good,Textiles
+product-HS92-1249,5204,Cotton sewing thread,good,Textiles
+product-HS92-1250,5205,Cotton yarn of > 85%,good,Textiles
+product-HS92-1251,5206,Cotton yarn of < 85%,good,Textiles
+product-HS92-1252,5207,Cotton yarn for retail sale,good,Textiles
+product-HS92-1253,5208,Woven fabrics of cotton of > 85% weighing < 200 g/m2,good,Textiles
+product-HS92-1254,5209,Woven fabrics of cotton of < 85% weighing > 200 g/m2,good,Textiles
+product-HS92-1255,5210,Woven fabrics of cotton of < 85% weighing < 200 g/m2,good,Textiles
+product-HS92-1256,5211,Woven fabrics of cotton of < 85% weighing > 200 g/m2,good,Textiles
+product-HS92-1257,5212,Other woven cotton fabrics,good,Textiles
+product-HS92-1258,5301,"Flax, raw or processed",good,Textiles
+product-HS92-1259,5302,Hemp fiber,good,Textiles
+product-HS92-1260,5303,Textile bast fibers,good,Textiles
+product-HS92-1261,5304,Sisal and agave fibers,good,Textiles
+product-HS92-1262,5305,Vegetable textile fibers,good,Textiles
+product-HS92-1263,5306,Flax yarn,good,Textiles
+product-HS92-1264,5307,Yarn of textile bast fibers,good,Textiles
+product-HS92-1265,5308,Yarn of other vegetable textile fibers,good,Textiles
+product-HS92-1266,5309,Woven fabrics of flax,good,Textiles
+product-HS92-1267,5310,Woven fabrics of jute or of other textile bast fibers,good,Textiles
+product-HS92-1268,5311,Woven fabrics of vegetable textile fibers,good,Textiles
+product-HS92-1269,5401,Synthetic sowing thread,good,Textiles
+product-HS92-1270,5402,Synthetic filament yarn,good,Textiles
+product-HS92-1271,5403,Artificial filament yarn,good,Textiles
+product-HS92-1272,5404,"Synthetic monofilament >67 dtex, thickness < 1mm",good,Textiles
+product-HS92-1273,5405,"Artificial monofilament >67dtex t<1mm, strip, straws t<5mm",good,Textiles
+product-HS92-1274,5406,Synthetic filament yarn for retail sale,good,Textiles
+product-HS92-1275,5407,Woven fabrics of synthetic filament yarn,good,Textiles
+product-HS92-1276,5408,Woven fabrics of artificial filament yarn,good,Textiles
+product-HS92-1277,5501,Synthetic filament tow,good,Textiles
+product-HS92-1278,5502,Artificial filament tow,good,Textiles
+product-HS92-1279,5503,Synthetic staple fibers,good,Textiles
+product-HS92-1280,5504,"Artificial staple fibers, not processed for spinning",good,Textiles
+product-HS92-1281,5505,Waste of man-made fibers,good,Textiles
+product-HS92-1282,5506,"Synthetic staple fibers, processed",good,Textiles
+product-HS92-1283,5507,"Artificial staple fibers, processed",good,Textiles
+product-HS92-1284,5508,Synthetic staple fibers sewing thread,good,Textiles
+product-HS92-1285,5509,"Yarn of synthetic staple fibers, not for retail sale",good,Textiles
+product-HS92-1286,5510,"Yarn of artificial staple fibers, not for retail sale",good,Textiles
+product-HS92-1287,5511,"Yarn of synthetic staple fibers, for retail sale",good,Textiles
+product-HS92-1288,5512,Woven fabrics of > 85% synthetic staple fibers,good,Textiles
+product-HS92-1289,5513,Woven fabrics of < 85% synthetic staple fibers weighing < 170 g/m2,good,Textiles
+product-HS92-1290,5514,Woven fabrics of < 85% synthetic staple fibers weighing > 170 g/m2,good,Textiles
+product-HS92-1291,5515,Other woven fabrics of synthetic staple fibers,good,Textiles
+product-HS92-1292,5516,Woven fabrics of artificial staple fibers,good,Textiles
+product-HS92-1293,5601,Wadding of textile materials,good,Textiles
+product-HS92-1294,5602,Felt,good,Textiles
+product-HS92-1295,5603,Nonwoven textiles,good,Textiles
+product-HS92-1296,5604,Rubber textiles,good,Textiles
+product-HS92-1297,5605,Metallised yarn,good,Textiles
+product-HS92-1298,5606,Gimp yarn,good,Textiles
+product-HS92-1299,5607,Twine and ropes of baste fibers,good,Textiles
+product-HS92-1300,5608,Nets,good,Textiles
+product-HS92-1301,5609,"Articles of yarn, rope etc not elsewhere clasified",good,Textiles
+product-HS92-1302,5701,"Carpets, knotted",good,Textiles
+product-HS92-1303,5702,Woven carpets and rugs,good,Textiles
+product-HS92-1304,5703,"Carpets, tufted",good,Textiles
+product-HS92-1305,5704,Carpets of felt,good,Textiles
+product-HS92-1306,5705,Other carpets,good,Textiles
+product-HS92-1307,5801,Woven pile fabrics,good,Textiles
+product-HS92-1308,5802,Terry cloth,good,Textiles
+product-HS92-1309,5803,Gauze,good,Textiles
+product-HS92-1310,5804,Lace and net fabrics,good,Textiles
+product-HS92-1311,5805,Hand-woven tapestries,good,Textiles
+product-HS92-1312,5806,Narrow woven fabrics,good,Textiles
+product-HS92-1313,5807,Labels and badges of textiles,good,Textiles
+product-HS92-1314,5808,Braids in piece,good,Textiles
+product-HS92-1315,5809,Woven fabric incorporating metal threads,good,Textiles
+product-HS92-1316,5810,Embroidery in the piece,good,Textiles
+product-HS92-1317,5811,Quilted textile products,good,Textiles
+product-HS92-1318,5901,Stiffened textiles,good,Textiles
+product-HS92-1319,5902,Tire cord fabric,good,Textiles
+product-HS92-1320,5903,Textile fabrics impregnated with plastics,good,Textiles
+product-HS92-1321,5904,Linoleum,good,Textiles
+product-HS92-1322,5905,Textile wall coverings,good,Textiles
+product-HS92-1323,5906,Rubberized textile fabrics,good,Textiles
+product-HS92-1324,5907,"Other textile fabrics impregnated, coated or covered",good,Textiles
+product-HS92-1325,5908,Textile wicks,good,Textiles
+product-HS92-1326,5909,Textile hosepiping and similar tubing,good,Textiles
+product-HS92-1327,5910,"Transmission belts or belting, of textile material",good,Textiles
+product-HS92-1328,5911,Textile articles for technical use,good,Textiles
+product-HS92-1329,6001,"Pile fabrics, knit",good,Textiles
+product-HS92-1330,6002,Other knitted fabrics,good,Textiles
+product-HS92-1331,6101,"Men's overcoats, knit",good,Textiles
+product-HS92-1332,6102,"Women's overcoats, knit",good,Textiles
+product-HS92-1333,6103,"Men's suits, knit",good,Textiles
+product-HS92-1334,6104,"Women's suits, knit",good,Textiles
+product-HS92-1335,6105,"Men's shirts, knit",good,Textiles
+product-HS92-1336,6106,"Women's shirts, knit",good,Textiles
+product-HS92-1337,6107,"Men's undergarments, knit",good,Textiles
+product-HS92-1338,6108,"Women's undergarments, knit",good,Textiles
+product-HS92-1339,6109,"T-shirts, knit",good,Textiles
+product-HS92-1340,6110,"Sweaters, pullovers, sweatshirts etc., knit",good,Textiles
+product-HS92-1341,6111,"Babies' garments, knit",good,Textiles
+product-HS92-1342,6112,"Activewear, knit",good,Textiles
+product-HS92-1343,6113,Garments knit with impregnated fibers,good,Textiles
+product-HS92-1344,6114,"Other garments, knit",good,Textiles
+product-HS92-1345,6115,"Socks, stockings, etc., knit",good,Textiles
+product-HS92-1346,6116,"Gloves, knit",good,Textiles
+product-HS92-1347,6117,"Other clothing accesories, knit",good,Textiles
+product-HS92-1348,6201,"Men's overcoats, not knit",good,Textiles
+product-HS92-1349,6202,"Womens overcoats, not knit",good,Textiles
+product-HS92-1350,6203,Men's suits and pants,good,Textiles
+product-HS92-1351,6204,Women's suits and pants,good,Textiles
+product-HS92-1352,6205,Men's shirts,good,Textiles
+product-HS92-1353,6206,Women's shirts,good,Textiles
+product-HS92-1354,6207,Men's undergarments,good,Textiles
+product-HS92-1355,6208,Women's undergarments,good,Textiles
+product-HS92-1356,6209,Babies' garments,good,Textiles
+product-HS92-1357,6210,Garments made of textile felts and nonwoven fabric,good,Textiles
+product-HS92-1358,6211,Activewear,good,Textiles
+product-HS92-1359,6212,Brassieres,good,Textiles
+product-HS92-1360,6213,Handkerchiefs,good,Textiles
+product-HS92-1361,6214,"Shawls, scarves, etc.",good,Textiles
+product-HS92-1362,6215,"Ties, bow ties and cravats",good,Textiles
+product-HS92-1363,6216,Gloves,good,Textiles
+product-HS92-1364,6217,Other clothing accesories,good,Textiles
+product-HS92-1365,6301,Blankets,good,Textiles
+product-HS92-1366,6302,House linen,good,Textiles
+product-HS92-1367,6303,Curtains,good,Textiles
+product-HS92-1368,6304,Other furnishing articles,good,Textiles
+product-HS92-1369,6305,Bags for packing goods,good,Textiles
+product-HS92-1370,6306,"Tents, tarpaulins, etc.",good,Textiles
+product-HS92-1371,6307,Other made up articles,good,Textiles
+product-HS92-1372,6308,Needlecraft sets of woven fabric and yarn,good,Textiles
+product-HS92-1373,6309,Used clothes and textiles,good,Textiles
+product-HS92-1374,6310,Used or new rags textile scraps,good,Textiles
+product-HS92-1375,6401,Waterproof footwear,good,Textiles
+product-HS92-1376,6402,Other footwear of rubber or plastics,good,Textiles
+product-HS92-1377,6403,Leather footwear,good,Textiles
+product-HS92-1378,6404,Textile footwear,good,Textiles
+product-HS92-1379,6405,Other footwear,good,Textiles
+product-HS92-1380,6406,Parts of footwear,good,Textiles
+product-HS92-1381,6501,Hat forms,good,Textiles
+product-HS92-1382,6502,Hat shapes,good,Textiles
+product-HS92-1383,6503,Felt hats,good,Textiles
+product-HS92-1384,6504,Hats,good,Textiles
+product-HS92-1385,6505,"Hats, knit",good,Textiles
+product-HS92-1386,6506,Other headgear,good,Textiles
+product-HS92-1387,6507,Headbands,good,Textiles
+product-HS92-1388,6601,Umbrellas,good,Textiles
+product-HS92-1389,6602,Walking sticks,good,Textiles
+product-HS92-1390,6603,Parts of umbrellas or walking sticks,good,Textiles
+product-HS92-1391,6701,Feathers or down,good,Textiles
+product-HS92-1392,6702,Artificial flowers,good,Textiles
+product-HS92-1393,6703,Human animal hair prepared for use in wigs,good,Textiles
+product-HS92-1394,6704,Wigs,good,Textiles
+product-HS92-1395,6801,"Flagstones, of natural stone",good,Stone
+product-HS92-1396,6802,Worked building stone,good,Stone
+product-HS92-1397,6803,Worked slate,good,Stone
+product-HS92-1398,6804,Grindstones,good,Stone
+product-HS92-1399,6805,Natural or artificial abrasive powder,good,Stone
+product-HS92-1400,6806,Mineral wools and insulating materials,good,Stone
+product-HS92-1401,6807,Asphalt,good,Stone
+product-HS92-1402,6808,Panels of vegetable fibers,good,Stone
+product-HS92-1403,6809,Plaster articles,good,Stone
+product-HS92-1404,6810,"Articles of cement, of concrete or of artificial stone",good,Stone
+product-HS92-1405,6811,Asbestos-cement or cellulose fiber-cement,good,Stone
+product-HS92-1406,6812,Asbestos fibres,good,Stone
+product-HS92-1407,6813,Friction material and articles thereof,good,Stone
+product-HS92-1408,6814,Mica articles,good,Stone
+product-HS92-1409,6815,Articles of stone or of other mineral substances,good,Stone
+product-HS92-1410,6901,"Bricks, blocks, and other ceramic goods",good,Stone
+product-HS92-1411,6902,"Bricks, tiles and similar refractory ceramic constructional goods",good,Stone
+product-HS92-1412,6903,Other refractory ceramic goods,good,Stone
+product-HS92-1413,6904,Ceramic building bricks,good,Stone
+product-HS92-1414,6905,Architectural ceramic ornaments,good,Stone
+product-HS92-1415,6906,Ceramic pipes,good,Stone
+product-HS92-1416,6907,Unglazed ceramic flags and pavers,good,Stone
+product-HS92-1417,6908,Glazed ceramic flags and pavers,good,Stone
+product-HS92-1418,6909,Ceramic wares for technical ware,good,Stone
+product-HS92-1419,6910,"Ceramic sinks, washbasins, and similar sanitary fixtures",good,Stone
+product-HS92-1420,6911,Porcelain or china household articles,good,Stone
+product-HS92-1421,6912,Ceramic household articles,good,Stone
+product-HS92-1422,6913,Ornamental ceramic articles,good,Stone
+product-HS92-1423,6914,Other ceramic articles,good,Stone
+product-HS92-1424,7001,Cullet and other scraps of glass,good,Stone
+product-HS92-1425,7002,Glass balls,good,Stone
+product-HS92-1426,7003,"Glass, cast or rolled",good,Stone
+product-HS92-1427,7004,Drawn and blown glass,good,Stone
+product-HS92-1428,7005,Float glass,good,Stone
+product-HS92-1429,7006,Worked glass,good,Stone
+product-HS92-1430,7007,Safety glass,good,Stone
+product-HS92-1431,7008,Multiple-walled insulating glass,good,Stone
+product-HS92-1432,7009,Glass mirrors,good,Stone
+product-HS92-1433,7010,Glass containers for conveyance,good,Stone
+product-HS92-1434,7011,Glass envelopes,good,Stone
+product-HS92-1435,7012,Glass inners for vacuum flasks,good,Stone
+product-HS92-1436,7013,Glassware for interior decorative use,good,Stone
+product-HS92-1437,7014,Signaling glassware,good,Stone
+product-HS92-1438,7015,Clock or watch glasses and similar glasses,good,Stone
+product-HS92-1439,7016,Glass paving blocks or other molded products,good,Stone
+product-HS92-1440,7017,"Laboratory, hygienic or pharmaceutical glassware",good,Stone
+product-HS92-1441,7018,Glass beads,good,Stone
+product-HS92-1442,7019,Glass fibers,good,Stone
+product-HS92-1443,7020,Other articles of glass,good,Stone
+product-HS92-1444,7101,Pearls,good,Stone
+product-HS92-1445,7102,Diamonds,good,Stone
+product-HS92-1446,7103,Precious stones,good,Stone
+product-HS92-1447,7104,Synthetic precious stones,good,Stone
+product-HS92-1448,7105,Diamond dust,good,Stone
+product-HS92-1449,7106,Silver,good,Stone
+product-HS92-1450,7107,Silver clad metals,good,Stone
+product-HS92-1451,7108,Gold,good,Stone
+product-HS92-1452,7109,Gold clad metals,good,Stone
+product-HS92-1453,7110,Platinum,good,Stone
+product-HS92-1454,7111,Platinum clad metals,good,Stone
+product-HS92-1455,7112,Scrap of precious metal,good,Stone
+product-HS92-1456,7113,Jewelry of precious metal,good,Stone
+product-HS92-1457,7114,Goldsmith and silversmith wares,good,Stone
+product-HS92-1458,7115,Other articles of precious metals,good,Stone
+product-HS92-1459,7116,Articles of precious stones,good,Stone
+product-HS92-1460,7117,Imitation jewelry,good,Stone
+product-HS92-1461,7118,Coin,good,Stone
+product-HS92-1462,7201,Pig iron,good,Metals
+product-HS92-1463,7202,Ferroalloys,good,Metals
+product-HS92-1464,7203,Ferrous products from the reduction of iron ore,good,Metals
+product-HS92-1465,7204,Ferrous waste and scrap,good,Metals
+product-HS92-1466,7205,Powders of iron or steel,good,Metals
+product-HS92-1467,7206,Iron and nonalloy steel,good,Metals
+product-HS92-1468,7207,Semifinished products of iron or nonalloy steel,good,Metals
+product-HS92-1469,7208,"Flat-rolled iron, width > 600mm, hot-rolled, not clad",good,Metals
+product-HS92-1470,7209,"Flat-rolled iron, width > 600mm, cold-rolled, not clad",good,Metals
+product-HS92-1471,7210,"Flat rolled iron, width > 600mm, clad",good,Metals
+product-HS92-1472,7211,"Flat-rolled iron, width < 600mm, not clad",good,Metals
+product-HS92-1473,7212,"Flat-rolled iron, width < 600mm, clad",good,Metals
+product-HS92-1474,7213,Hot rolled bars of iron,good,Metals
+product-HS92-1475,7214,"Other bars of iron, not further worked than forged",good,Metals
+product-HS92-1476,7215,Other bars and rods of iron or nonalloy steel,good,Metals
+product-HS92-1477,7216,Angles of iron or nonalloy steel,good,Metals
+product-HS92-1478,7217,Wire of iron or nonalloy steel,good,Metals
+product-HS92-1479,7218,Stainless steel in ingots,good,Metals
+product-HS92-1480,7219,Flat-rolled products of stainless steel of a width > 600 mm,good,Metals
+product-HS92-1481,7220,Flat-rolled products of stainless steel of a width < 600 mm,good,Metals
+product-HS92-1482,7221,"Bars of stainless steel, hot-rolled",good,Metals
+product-HS92-1483,7222,Other bars and rods of stainless steel,good,Metals
+product-HS92-1484,7223,Wire of stainless steel,good,Metals
+product-HS92-1485,7224,Other alloy steel in primary form,good,Metals
+product-HS92-1486,7225,"Flat-rolled products of other alloy steel, width > 600 mm",good,Metals
+product-HS92-1487,7226,"Flat-rolled products of other alloy steel, width < 600 mm",good,Metals
+product-HS92-1488,7227,Bars of other alloy steel,good,Metals
+product-HS92-1489,7228,Other bars and rods of other alloy steel,good,Metals
+product-HS92-1490,7229,Wire of other alloy steel,good,Metals
+product-HS92-1491,7301,Sheet piling of iron or steel,good,Metals
+product-HS92-1492,7302,Railway construction material of iron or steel,good,Metals
+product-HS92-1493,7303,Tubes of cast iron,good,Metals
+product-HS92-1494,7304,"Tubes, seamless, of iron or steel",good,Metals
+product-HS92-1495,7305,"Other tubes and pipes, diameter > 406.4 mm, of iron or steel",good,Metals
+product-HS92-1496,7306,"Other tubes, pipes and hollow profiles of iron or steel",good,Metals
+product-HS92-1497,7307,Tube or pipe fittings of iron or steel,good,Metals
+product-HS92-1498,7308,"Structures and their parts, of iron or steel",good,Metals
+product-HS92-1499,7309,"Tanks etc. > 300 liters, iron or steel",good,Metals
+product-HS92-1500,7310,"Tanks etc. < 300 liters, iron or steel",good,Metals
+product-HS92-1501,7311,Containers for compressed or liquified gas,good,Metals
+product-HS92-1502,7312,"Wire of iron or steel, not insulated",good,Metals
+product-HS92-1503,7313,Barbed wire of iron or steel,good,Metals
+product-HS92-1504,7314,Cloth of iron or steel wire,good,Metals
+product-HS92-1505,7315,Chain of iron or steel,good,Metals
+product-HS92-1506,7316,Anchors of iron or steel,good,Metals
+product-HS92-1507,7317,Nails and similar articles of iron or steel,good,Metals
+product-HS92-1508,7318,Screws and similar articles of iron or steel,good,Metals
+product-HS92-1509,7319,Articles for sewing of iron or steel,good,Metals
+product-HS92-1510,7320,Springs of iron or steel,good,Metals
+product-HS92-1511,7321,Stoves and similar non-electric appliances of iron or steel,good,Metals
+product-HS92-1512,7322,Radiators for central heating of iron or steel,good,Metals
+product-HS92-1513,7323,Household articles of iron or steel,good,Metals
+product-HS92-1514,7324,Sanitary ware and parts of iron or steel,good,Metals
+product-HS92-1515,7325,Other cast articles of iron or steel,good,Metals
+product-HS92-1516,7326,Other articles of iron or steel,good,Metals
+product-HS92-1517,7401,Copper mattes,good,Metals
+product-HS92-1518,7402,Unrefined copper,good,Metals
+product-HS92-1519,7403,Refined copper and copper alloys,good,Metals
+product-HS92-1520,7404,Copper waste and scrap,good,Metals
+product-HS92-1521,7405,Master alloys of copper,good,Metals
+product-HS92-1522,7406,Copper powders and flakes,good,Metals
+product-HS92-1523,7407,"Copper bars, rods and profiles",good,Metals
+product-HS92-1524,7408,Copper wire,good,Metals
+product-HS92-1525,7409,"Copper plates, sheets and strip > 0.15 mm",good,Metals
+product-HS92-1526,7410,Copper foil < 0.15 mm thick,good,Metals
+product-HS92-1527,7411,Copper tubes and pipes,good,Metals
+product-HS92-1528,7412,Copper tube or pipe fittings,good,Metals
+product-HS92-1529,7413,"Copper wire, uninsulated",good,Metals
+product-HS92-1530,7414,Endless bands of copper wire for machinery,good,Metals
+product-HS92-1531,7415,Screws and similar articles of copper,good,Metals
+product-HS92-1532,7416,Copper springs,good,Metals
+product-HS92-1533,7417,Copper cooking products,good,Metals
+product-HS92-1534,7418,Household articles of copper,good,Metals
+product-HS92-1535,7419,Other articles of copper,good,Metals
+product-HS92-1536,7501,Nickel mattes,good,Metals
+product-HS92-1537,7502,Nickel unwrought,good,Metals
+product-HS92-1538,7503,Nickel waste and scrap,good,Metals
+product-HS92-1539,7504,Nickel powders,good,Metals
+product-HS92-1540,7505,"Nickel bars, wire etc.",good,Metals
+product-HS92-1541,7506,Nickel plates,good,Metals
+product-HS92-1542,7507,Nickel tubes and pipes,good,Metals
+product-HS92-1543,7508,Other articles of nickel,good,Metals
+product-HS92-1544,7601,Unwrought aluminum,good,Metals
+product-HS92-1545,7602,"Waste or scrap, aluminium",good,Metals
+product-HS92-1546,7603,Aluminum powders,good,Metals
+product-HS92-1547,7604,Aluminum bars,good,Metals
+product-HS92-1548,7605,Aluminum wire,good,Metals
+product-HS92-1549,7606,Aluminum plates > 0.2 mm,good,Metals
+product-HS92-1550,7607,Aluminum foil < 0.2 mm,good,Metals
+product-HS92-1551,7608,Aluminum tubes and pipes,good,Metals
+product-HS92-1552,7609,Aluminum tube or pipe fittings,good,Metals
+product-HS92-1553,7610,"Aluminum structures (bridges, towers etc)",good,Metals
+product-HS92-1554,7611,"Aluminum containers, >300 liters",good,Metals
+product-HS92-1555,7612,"Aluminum containers, <300 liters",good,Metals
+product-HS92-1556,7613,Aluminum containers for compressed or liquefied gas,good,Metals
+product-HS92-1557,7614,"Aluminum wire, not insulated",good,Metals
+product-HS92-1558,7615,Household articles of aluminum,good,Metals
+product-HS92-1559,7616,Other articles of aluminum,good,Metals
+product-HS92-1560,7801,Lead refined unwrought,good,Metals
+product-HS92-1561,7802,Lead waste or scrap,good,Metals
+product-HS92-1562,7803,"Lead bars, rods, profiles and wire",good,Metals
+product-HS92-1563,7804,Lead foil <2mm,good,Metals
+product-HS92-1564,7805,"Lead tubes, pipes and fittings",good,Metals
+product-HS92-1565,7806,Other articles of lead,good,Metals
+product-HS92-1566,7901,Unwrought zinc,good,Metals
+product-HS92-1567,7902,Zinc waste and scrap,good,Metals
+product-HS92-1568,7903,Zinc powders,good,Metals
+product-HS92-1569,7904,Zinx bars and wire,good,Metals
+product-HS92-1570,7905,Zinc plates and foil,good,Metals
+product-HS92-1571,7906,"Zinc tubes, pipes and tube or pipe fittings",good,Metals
+product-HS92-1572,7907,Other articles of zinc,good,Metals
+product-HS92-1573,8001,Unwrought tin,good,Metals
+product-HS92-1574,8002,Tin waste and scrap,good,Metals
+product-HS92-1575,8003,Tin bars and wire,good,Metals
+product-HS92-1576,8004,"Tin plates, sheets and strips, thickness > 0.2 mm",good,Metals
+product-HS92-1577,8005,"Tin foil, thickness < 0.2 mm",good,Metals
+product-HS92-1578,8006,Tin pipes or tubes and pipe fittings,good,Metals
+product-HS92-1579,8007,Other articles of tin,good,Metals
+product-HS92-1580,8101,Tungsten (wolfram),good,Metals
+product-HS92-1581,8102,Molybdenum,good,Metals
+product-HS92-1582,8103,Tantalum,good,Metals
+product-HS92-1583,8104,Magnesium,good,Metals
+product-HS92-1584,8105,Cobalt,good,Metals
+product-HS92-1585,8106,Bismuth,good,Metals
+product-HS92-1586,8107,Cadmium,good,Metals
+product-HS92-1587,8108,Titanium,good,Metals
+product-HS92-1588,8109,Zirconium,good,Metals
+product-HS92-1589,8110,Antimony,good,Metals
+product-HS92-1590,8111,Manganese,good,Metals
+product-HS92-1591,8112,Other metals,good,Metals
+product-HS92-1592,8113,Cermets,good,Metals
+product-HS92-1593,8201,Handtools for gardening,good,Metals
+product-HS92-1594,8202,Handsaws,good,Metals
+product-HS92-1595,8203,"Pliers, pincers and other metal handtools",good,Metals
+product-HS92-1596,8204,Wrenches,good,Metals
+product-HS92-1597,8205,Hand tools n.e.c.,good,Metals
+product-HS92-1598,8206,Retail tool sets,good,Metals
+product-HS92-1599,8207,Interchangeable tools for hand tools,good,Metals
+product-HS92-1600,8208,Knives and blades for machines,good,Metals
+product-HS92-1601,8209,"Articles for utensils, of cermet",good,Metals
+product-HS92-1602,8210,"Hand-operated appliances, food preparation, <10kg",good,Metals
+product-HS92-1603,8211,Knife sets,good,Metals
+product-HS92-1604,8212,Razors,good,Metals
+product-HS92-1605,8213,Scissors,good,Metals
+product-HS92-1606,8214,Other cutlery,good,Metals
+product-HS92-1607,8215,Cutlery,good,Metals
+product-HS92-1608,8301,Padlocks and locks,good,Metals
+product-HS92-1609,8302,"Base metal mountings, fittings and similar articles",good,Metals
+product-HS92-1610,8303,Safes,good,Metals
+product-HS92-1611,8304,"Paper trays and similar office equipment, of base metal",good,Metals
+product-HS92-1612,8305,"Paper clips and similar office articles, of metal",good,Metals
+product-HS92-1613,8306,"Ornaments, statuettes, etc. of metal",good,Metals
+product-HS92-1614,8307,Flexible tubing of base metal,good,Metals
+product-HS92-1615,8308,"Clasps, buckles etc. of metal",good,Metals
+product-HS92-1616,8309,"Stoppers, caps and lids of metal",good,Metals
+product-HS92-1617,8310,Sign plates and similar plates of base metal,good,Metals
+product-HS92-1618,8311,Wire etc. used for welding,good,Metals
+product-HS92-1619,8401,Nuclear reactors and related equipment,good,Machinery
+product-HS92-1620,8402,Steam boilers,good,Machinery
+product-HS92-1621,8403,Central heating boilers,good,Machinery
+product-HS92-1622,8404,Auxiliary parts for use with boilers,good,Machinery
+product-HS92-1623,8405,Water gas generators,good,Machinery
+product-HS92-1624,8406,Steam turbines,good,Machinery
+product-HS92-1625,8407,Spark-ignition reciprocating internal combustion piston engines,good,Machinery
+product-HS92-1626,8408,Compression-ignition internal combustion piston engines,good,Machinery
+product-HS92-1627,8409,Parts suitable for use with spark-ignition engines,good,Machinery
+product-HS92-1628,8410,"Hydraulic turbines, water wheels and regulators",good,Machinery
+product-HS92-1629,8411,Gas turbines,good,Machinery
+product-HS92-1630,8412,Other engines and motors,good,Machinery
+product-HS92-1631,8413,Pumps for liquids,good,Machinery
+product-HS92-1632,8414,"Pumps, compressors, fans, etc.",good,Machinery
+product-HS92-1633,8415,Air conditioners,good,Machinery
+product-HS92-1634,8416,Furnace burners,good,Machinery
+product-HS92-1635,8417,Industrial furnaces,good,Machinery
+product-HS92-1636,8418,"Refrigerators, freezers",good,Machinery
+product-HS92-1637,8419,Equipment for temperature change of materials,good,Machinery
+product-HS92-1638,8420,"Calendering or other rolling machines, other than for metals or glass",good,Machinery
+product-HS92-1639,8421,Centrifuges,good,Machinery
+product-HS92-1640,8422,Dish washing machines,good,Machinery
+product-HS92-1641,8423,Weighing machinery,good,Machinery
+product-HS92-1642,8424,Sprays and powder dispersers,good,Machinery
+product-HS92-1643,8425,Pulleys and winches,good,Machinery
+product-HS92-1644,8426,Ships' derricks; cranes,good,Machinery
+product-HS92-1645,8427,Fork-lift trucks,good,Machinery
+product-HS92-1646,8428,Other lifting machinery,good,Machinery
+product-HS92-1647,8429,"Self-propelled bulldozers, excavators and road rollers",good,Machinery
+product-HS92-1648,8430,"Other moving, excavating or boring machinery",good,Machinery
+product-HS92-1649,8431,Parts for use with hoists and excavation machinery,good,Machinery
+product-HS92-1650,8432,Machinery for soil preparation or cultivation,good,Machinery
+product-HS92-1651,8433,Harvesting or agricultural machinery,good,Machinery
+product-HS92-1652,8434,Dairy machinery,good,Machinery
+product-HS92-1653,8435,Machines for wine and juice production,good,Machinery
+product-HS92-1654,8436,Other agricultural machinery,good,Machinery
+product-HS92-1655,8437,Machinery for processing grain,good,Machinery
+product-HS92-1656,8438,Machinery for the industrial preparation of food or drink,good,Machinery
+product-HS92-1657,8439,Machinery for making paper,good,Machinery
+product-HS92-1658,8440,Bookbinding machinery,good,Machinery
+product-HS92-1659,8441,Other machinery for making paper,good,Machinery
+product-HS92-1660,8442,Machinery for making printing components,good,Machinery
+product-HS92-1661,8443,Printers and copiers,good,Machinery
+product-HS92-1662,8444,"Machines to extrude, cut manmade textile fibres",good,Machinery
+product-HS92-1663,8445,Machines for preparing textile fibers,good,Machinery
+product-HS92-1664,8446,Looms,good,Machinery
+product-HS92-1665,8447,Knitting machines,good,Machinery
+product-HS92-1666,8448,Auxiliary machinery for use with knitting and textile machines,good,Machinery
+product-HS92-1667,8449,Machinery to manufacture felt,good,Machinery
+product-HS92-1668,8450,Household- or laundry-type washing machines,good,Machinery
+product-HS92-1669,8451,Machinery for processing fabrics,good,Machinery
+product-HS92-1670,8452,Sewing machines,good,Machinery
+product-HS92-1671,8453,Machinery for preparing leather,good,Machinery
+product-HS92-1672,8454,Machines used in metallurgy,good,Machinery
+product-HS92-1673,8455,Metal-rolling mills,good,Machinery
+product-HS92-1674,8456,Machines for working materials by laser and similar means,good,Machinery
+product-HS92-1675,8457,Machining centers for working metal,good,Machinery
+product-HS92-1676,8458,Lathes for removing metal,good,Machinery
+product-HS92-1677,8459,Machine tools for drilling by removing metal,good,Machinery
+product-HS92-1678,8460,Machines with grinding stones for finishing metal,good,Machinery
+product-HS92-1679,8461,Other machine tools for planing and cutting metals,good,Machinery
+product-HS92-1680,8462,Machine tools for molding and forging metals,good,Machinery
+product-HS92-1681,8463,"Other machine tools for working metal, without removal",good,Machinery
+product-HS92-1682,8464,Machine tools for working stone,good,Machinery
+product-HS92-1683,8465,Machine tools for working wood,good,Machinery
+product-HS92-1684,8466,Parts and accessories for metal working machines,good,Machinery
+product-HS92-1685,8467,"Tools for hand working, pneumatic, hydraulic motors",good,Machinery
+product-HS92-1686,8468,Machinery for soldering,good,Machinery
+product-HS92-1687,8469,Word processing machines,good,Machinery
+product-HS92-1688,8470,"Cash registers, calculators, etc.",good,Machinery
+product-HS92-1689,8471,Computers,good,Machinery
+product-HS92-1690,8472,Other office machines,good,Machinery
+product-HS92-1691,8473,Parts and accessories for office machines,good,Machinery
+product-HS92-1692,8474,Machinery for working minerals,good,Machinery
+product-HS92-1693,8475,Machines for assembling electric lamps,good,Machinery
+product-HS92-1694,8476,Automatic goods-vending machines,good,Machinery
+product-HS92-1695,8477,Machinery for working rubber or plastics,good,Machinery
+product-HS92-1696,8478,Machinery for preparing tobacco,good,Machinery
+product-HS92-1697,8479,Machines n.e.c.,good,Machinery
+product-HS92-1698,8480,Molding boxes for metal foundry,good,Machinery
+product-HS92-1699,8481,Appliances for thermostatically controlled valves,good,Machinery
+product-HS92-1700,8482,Ball or roller bearings,good,Machinery
+product-HS92-1701,8483,Transmission shafts,good,Machinery
+product-HS92-1702,8484,Gaskets and similar joints of metal sheeting,good,Machinery
+product-HS92-1703,8485,"Machinery parts, not containing electrical features, n.e.c.",good,Machinery
+product-HS92-1704,8501,Electric motors and generators,good,Electronics
+product-HS92-1705,8502,Electric generating sets and rotary converters,good,Electronics
+product-HS92-1706,8503,Parts for use with electric generators,good,Electronics
+product-HS92-1707,8504,Electrical transformers,good,Electronics
+product-HS92-1708,8505,Electromagnets,good,Electronics
+product-HS92-1709,8506,Primary cells and primary batteries,good,Electronics
+product-HS92-1710,8507,Batteries,good,Electronics
+product-HS92-1711,8508,Vacuum cleaners,good,Electronics
+product-HS92-1712,8509,Electromechanical domestic appliances,good,Electronics
+product-HS92-1713,8510,Electric shavers and hair clippers,good,Electronics
+product-HS92-1714,8511,Electrical ignition equipment,good,Electronics
+product-HS92-1715,8512,Electrical lighting equipment used for motor vehicles,good,Electronics
+product-HS92-1716,8513,Portable electric lamps,good,Electronics
+product-HS92-1717,8514,Industrial electric furnaces,good,Electronics
+product-HS92-1718,8515,Electric soldering machines,good,Electronics
+product-HS92-1719,8516,Electric heaters,good,Electronics
+product-HS92-1720,8517,Telephones,good,Electronics
+product-HS92-1721,8518,Microphones,good,Electronics
+product-HS92-1722,8519,Sound reproducing apparatus,good,Electronics
+product-HS92-1723,8520,Magnetic tape recorders,good,Electronics
+product-HS92-1724,8521,Video recording apparatus,good,Electronics
+product-HS92-1725,8522,Parts and accessories for video or sound equipment,good,Electronics
+product-HS92-1726,8523,Sound storage media,good,Electronics
+product-HS92-1727,8524,"Tapes, cassettes, records and compact disks",good,Electronics
+product-HS92-1728,8525,"Transmission apparatus for radio, telephone and TV",good,Electronics
+product-HS92-1729,8526,Radar,good,Electronics
+product-HS92-1730,8527,Reception apparatus for radio broadcasting,good,Electronics
+product-HS92-1731,8528,Monitors and projectors,good,Electronics
+product-HS92-1732,8529,"Parts of radios, telephones, and T.V.s",good,Electronics
+product-HS92-1733,8530,Electric signal and traffic controls,good,Electronics
+product-HS92-1734,8531,Electric sound or visual signaling apparatus,good,Electronics
+product-HS92-1735,8532,Electrical capacitors,good,Electronics
+product-HS92-1736,8533,Electrical resistors,good,Electronics
+product-HS92-1737,8534,Electronic printed circuits,good,Electronics
+product-HS92-1738,8535,Electrical apparatus for > 1k volts,good,Electronics
+product-HS92-1739,8536,Electrical apparatus for < 1k volts,good,Electronics
+product-HS92-1740,8537,Electrical boards,good,Electronics
+product-HS92-1741,8538,Parts for electrical apparatus,good,Electronics
+product-HS92-1742,8539,Electrical filament,good,Electronics
+product-HS92-1743,8540,"Thermionic, cold cathode or photocathode tubes",good,Electronics
+product-HS92-1744,8541,Semiconductor devices,good,Electronics
+product-HS92-1745,8542,Electronic integrated circuits,good,Electronics
+product-HS92-1746,8543,Electrical machines with individual functions n.e.c.,good,Electronics
+product-HS92-1747,8544,Insulated electrical wire,good,Electronics
+product-HS92-1748,8545,Carbon articles for eletrical purposes,good,Electronics
+product-HS92-1749,8546,Electrical insulators of any material,good,Electronics
+product-HS92-1750,8547,Insulating fittings for electrical machines,good,Electronics
+product-HS92-1751,8548,Waste and scrap of batteries,good,Electronics
+product-HS92-1752,8601,Electric trains,good,Vehicles
+product-HS92-1753,8602,Other rail locomotives,good,Vehicles
+product-HS92-1754,8603,Self-propelled railway coaches,good,Vehicles
+product-HS92-1755,8604,Railway service vehicles,good,Vehicles
+product-HS92-1756,8605,"Railway coaches, not self-propelled",good,Vehicles
+product-HS92-1757,8606,"Railway cars, not self-propelled",good,Vehicles
+product-HS92-1758,8607,Parts of railway locomotives,good,Vehicles
+product-HS92-1759,8608,Railway track fixtures,good,Vehicles
+product-HS92-1760,8609,Containers for multimodal transportation,good,Vehicles
+product-HS92-1761,8701,Tractors,good,Vehicles
+product-HS92-1762,8702,Buses,good,Vehicles
+product-HS92-1763,8703,Cars,good,Vehicles
+product-HS92-1764,8704,Motor vehicles for transporting goods,good,Vehicles
+product-HS92-1765,8705,Special purpose motor vehicles,good,Vehicles
+product-HS92-1766,8706,Vehicle chassis fitted with engines,good,Vehicles
+product-HS92-1767,8707,Vehicle Bodies,good,Vehicles
+product-HS92-1768,8708,Parts of motor vehicles,good,Vehicles
+product-HS92-1769,8709,Work trucks,good,Vehicles
+product-HS92-1770,8710,Tanks and other armored fighting vehicles,good,Vehicles
+product-HS92-1771,8711,Motorcycles,good,Vehicles
+product-HS92-1772,8712,Bicycles,good,Vehicles
+product-HS92-1773,8713,Wheelchairs,good,Vehicles
+product-HS92-1774,8714,Parts of motorcycles or wheelchairs,good,Vehicles
+product-HS92-1775,8715,Baby carriages,good,Vehicles
+product-HS92-1776,8716,Trailers and semi-trailers,good,Vehicles
+product-HS92-1777,8801,"Gliders, hang gliders",good,Vehicles
+product-HS92-1778,8802,Other aircraft and spacecraft,good,Vehicles
+product-HS92-1779,8803,Parts of other aircraft,good,Vehicles
+product-HS92-1780,8804,Parachutes,good,Vehicles
+product-HS92-1781,8805,Aircraft launching gear,good,Vehicles
+product-HS92-1782,8901,Cargo ships and similar vessels,good,Vehicles
+product-HS92-1783,8902,Fishing vessels,good,Vehicles
+product-HS92-1784,8903,Pleasure or sport boats,good,Vehicles
+product-HS92-1785,8904,Tugs and pusher craft,good,Vehicles
+product-HS92-1786,8905,"Special function vessels, n.e.c.",good,Vehicles
+product-HS92-1787,8906,Other vessels,good,Vehicles
+product-HS92-1788,8907,Other floating structures,good,Vehicles
+product-HS92-1789,8908,Floating structures for scrapping,good,Vehicles
+product-HS92-1790,9001,Optical fibers,good,Machinery
+product-HS92-1791,9002,Lenses and other optical elements,good,Machinery
+product-HS92-1792,9003,"Frames for spectacles, goggles",good,Machinery
+product-HS92-1793,9004,Glasses,good,Machinery
+product-HS92-1794,9005,Binoculars and telescopes,good,Machinery
+product-HS92-1795,9006,Photographic cameras,good,Machinery
+product-HS92-1796,9007,Cinematographic cameras and projectors,good,Machinery
+product-HS92-1797,9008,Still image projectors,good,Machinery
+product-HS92-1798,9009,Electrostatic photo-copyers,good,Machinery
+product-HS92-1799,9010,"Apparatus and equipment for photographic laboratories, n.e.c.",good,Machinery
+product-HS92-1800,9011,Optical microscopes,good,Machinery
+product-HS92-1801,9012,"Microscopes, other than optical",good,Machinery
+product-HS92-1802,9013,Liquid crystal devices,good,Machinery
+product-HS92-1803,9014,Navigational instruments,good,Machinery
+product-HS92-1804,9015,Surveying instruments,good,Machinery
+product-HS92-1805,9016,Balances of a sensitivity < 50 milligram,good,Machinery
+product-HS92-1806,9017,Drafting tables and machines,good,Machinery
+product-HS92-1807,9018,Medical instruments,good,Machinery
+product-HS92-1808,9019,Therapy applicances,good,Machinery
+product-HS92-1809,9020,Other breathing appliances and gas masks,good,Machinery
+product-HS92-1810,9021,Orthopedic appliances,good,Machinery
+product-HS92-1811,9022,X-ray machines,good,Machinery
+product-HS92-1812,9023,Instruments designed for demonstrational purposes,good,Machinery
+product-HS92-1813,9024,Machines for testing the mechanical properties of materials,good,Machinery
+product-HS92-1814,9025,"Thermometers, hydrometers etc.",good,Machinery
+product-HS92-1815,9026,Instruments for measuring properties of liquids or gases,good,Machinery
+product-HS92-1816,9027,Instruments for physical or chemical analysis,good,Machinery
+product-HS92-1817,9028,"Gas, liquid or electricity meters",good,Machinery
+product-HS92-1818,9029,Meters,good,Machinery
+product-HS92-1819,9030,Instruments for measuring electricity,good,Machinery
+product-HS92-1820,9031,Measuring instruments,good,Machinery
+product-HS92-1821,9032,Automatic regulating instruments,good,Machinery
+product-HS92-1822,9033,Other parts for machines and appliances,good,Machinery
+product-HS92-1823,9101,Watches with precious metal,good,Machinery
+product-HS92-1824,9102,Watches,good,Machinery
+product-HS92-1825,9103,Clocks with watch movements,good,Machinery
+product-HS92-1826,9104,Instrument panel clocks for vehicles,good,Machinery
+product-HS92-1827,9105,Other clocks,good,Machinery
+product-HS92-1828,9106,Apparatus for measuring intervals of time,good,Machinery
+product-HS92-1829,9107,Time switches,good,Machinery
+product-HS92-1830,9108,"Watch movements, complete",good,Machinery
+product-HS92-1831,9109,"Clock movements, complete",good,Machinery
+product-HS92-1832,9110,"Clock movements, complete, unassembled",good,Machinery
+product-HS92-1833,9111,Watch cases and parts,good,Machinery
+product-HS92-1834,9112,Clock cases,good,Machinery
+product-HS92-1835,9113,Watch straps,good,Machinery
+product-HS92-1836,9114,Other clock or watch parts,good,Machinery
+product-HS92-1837,9201,Pianos,good,Machinery
+product-HS92-1838,9202,"Musical instruments, string",good,Machinery
+product-HS92-1839,9203,"Harmoniums, pipe organs, etc",good,Machinery
+product-HS92-1840,9204,Accordions and similar instruments,good,Machinery
+product-HS92-1841,9205,"Musical instruments, wind",good,Machinery
+product-HS92-1842,9206,"Musical instruments, percussion",good,Machinery
+product-HS92-1843,9207,"Musical instruments, electric",good,Machinery
+product-HS92-1844,9208,"Other musical instruments, n.e.c.",good,Machinery
+product-HS92-1845,9209,Parts of musical instruments,good,Machinery
+product-HS92-1846,9301,"Military weapons, other than pistols and swords",good,Machinery
+product-HS92-1847,9302,Revolvers and pistols,good,Machinery
+product-HS92-1848,9303,Other firearms,good,Machinery
+product-HS92-1849,9304,"Other arms (air guns, truncheons, etc.)",good,Machinery
+product-HS92-1850,9305,Parts of military weapons,good,Machinery
+product-HS92-1851,9306,Munitions of war,good,Machinery
+product-HS92-1852,9307,Swords,good,Machinery
+product-HS92-1853,9401,Seats,good,Textiles
+product-HS92-1854,9402,"Medical, dental or veterinary furniture",good,Textiles
+product-HS92-1855,9403,Other furniture and parts,good,Textiles
+product-HS92-1856,9404,Mattresses and bedding,good,Textiles
+product-HS92-1857,9405,Lamps,good,Textiles
+product-HS92-1858,9406,Prefabricated buildings,good,Textiles
+product-HS92-1859,9501,"Rideable wheeled toys, dolls carriages",good,Machinery
+product-HS92-1860,9502,Dolls,good,Machinery
+product-HS92-1861,9503,Toys,good,Machinery
+product-HS92-1862,9504,Games,good,Machinery
+product-HS92-1863,9505,Christmas and other festivity articles,good,Machinery
+product-HS92-1864,9506,Sports equipment,good,Machinery
+product-HS92-1865,9507,Fishing and hunting equipment,good,Machinery
+product-HS92-1866,9508,Fairground amusements,good,Machinery
+product-HS92-1867,9601,Worked animal carving material,good,Machinery
+product-HS92-1868,9602,Worked vegetable or mineral carving material,good,Machinery
+product-HS92-1869,9603,Brooms and mops,good,Machinery
+product-HS92-1870,9604,Hand sieves and riddles,good,Machinery
+product-HS92-1871,9605,Travel sets,good,Machinery
+product-HS92-1872,9606,Buttons,good,Machinery
+product-HS92-1873,9607,Slide fasteners,good,Machinery
+product-HS92-1874,9608,Pens,good,Machinery
+product-HS92-1875,9609,"Pencils, crayons, pastels, etc.",good,Machinery
+product-HS92-1876,9610,"Slates and boards, with writing or drawing surfaces",good,Machinery
+product-HS92-1877,9611,Hand-operated stamps,good,Machinery
+product-HS92-1878,9612,Typewriter ribbons and ink pads,good,Machinery
+product-HS92-1879,9613,Cigarette lighters,good,Machinery
+product-HS92-1880,9614,Smoking pipes,good,Machinery
+product-HS92-1881,9615,"Combs, hair-slides etc.",good,Machinery
+product-HS92-1882,9616,Scent sprays,good,Machinery
+product-HS92-1883,9617,Vacuum vessels,good,Machinery
+product-HS92-1884,9618,Mannequins,good,Machinery
+product-HS92-1885,9701,Paintings and drawings,good,Textiles
+product-HS92-1886,9702,Original engravings,good,Textiles
+product-HS92-1887,9703,Sculptures,good,Textiles
+product-HS92-1888,9704,Postage or revenue stamps,good,Textiles
+product-HS92-1889,9705,Collectors pieces,good,Textiles
+product-HS92-1890,9706,Antiques >100 years,good,Textiles
+product-HS92-1891,9999,Commodities not specified according to kind,good,Other
+product-HS92-1892,XXXX,Trade data discrepancies,good,Other
+product-HS92-4000,unspecified,Unspecified,service,Services
+product-HS92-4001,travel,Travel & tourism,service,Services
+product-HS92-4002,transport,Transport,service,Services
+product-HS92-4003,ict,Business,service,Services
+product-HS92-4004,financial,Insurance & finance,service,Services

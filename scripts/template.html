@@ -1,0 +1,285 @@
+<!doctype html>
+<!-- Template for pr_exports.html. build.py fills in the fonts, the Plotly library and the data;
+     edit this file, not the generated pr_exports.html. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puerto Rico's exports</title>
+<style>
+  /*FONTS*/
+  /* V2A palette (v2aconsulting.com); headings in Georgia like the V2A website */
+  :root {
+    --dark-blue: #0D2145; --bahia: #1D4289; --celeste: #41B5E5; --orange: #FF8C6B;
+    --text: #343A40; --muted: #6C757D; --light: #F4F4F4; --line: #DDE1E5; --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--white); color: var(--text);
+         font: 15px/1.5 Inter, Helvetica, Arial, sans-serif; }
+  main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1, h2 { font-family: Georgia, serif; color: var(--dark-blue); font-weight: normal; margin: 0 0 6px; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 22px; margin-top: 36px; }
+  p { margin: 0 0 12px; max-width: 760px; }
+  .lead { color: var(--muted); }
+
+  .toolbar { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 12px 24px;
+             align-items: center; padding: 12px 16px; margin: 20px -16px 0; background: var(--light);
+             border-bottom: 1px solid var(--line); }
+  .group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .label { font-size: 13px; color: var(--muted); }
+  .segmented { display: inline-flex; border: 1px solid var(--bahia); border-radius: 8px; overflow: hidden; }
+  .segmented button { border: 0; background: var(--white); color: var(--bahia); padding: 6px 12px;
+                      font: inherit; font-size: 14px; cursor: pointer; }
+  .segmented button + button { border-left: 1px solid var(--bahia); }
+  .segmented button[aria-pressed="true"] { background: var(--bahia); color: var(--white); }
+  input[type="search"] { width: 300px; max-width: 100%; padding: 6px 10px; font: inherit; font-size: 14px;
+                         border: 1px solid var(--line); border-radius: 8px; }
+  .link-button { border: 0; background: none; color: var(--bahia); font: inherit; font-size: 14px;
+                 cursor: pointer; text-decoration: underline; padding: 0; }
+
+  .selection { min-height: 24px; margin-top: 12px; font-size: 14px; }
+  .selection strong { color: var(--dark-blue); }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px;
+          border: 1px solid var(--line); background: var(--white); font: inherit; font-size: 13px;
+          cursor: pointer; }
+  .chip .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .chip[aria-pressed="false"] { opacity: 0.4; }
+  .chart { width: 100%; height: 620px; }
+  #chart-industry { height: 420px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px;
+           color: var(--muted); }
+  footer p { max-width: none; }
+</style>
+<script>/*PLOTLY_JS*/</script>
+</head>
+<body>
+<main>
+  <h1>What does Puerto Rico export?</h1>
+  <p class="lead">Every bubble is one product in one year. Bubble area = export value.
+    Click a bubble, or search for a product, to follow it through time in both charts.</p>
+
+  <div class="toolbar">
+    <div class="group">
+      <span class="label">Exports to</span>
+      <div class="segmented" id="destination">
+        <button data-value="total" aria-pressed="true">All destinations</button>
+        <button data-value="foreign" aria-pressed="false">Foreign countries</button>
+        <button data-value="us" aria-pressed="false">U.S.</button>
+      </div>
+    </div>
+    <div class="group">
+      <span class="label">Product</span>
+      <input type="search" id="search" list="product-list" placeholder="Type a name or HS code, e.g. 3002">
+      <datalist id="product-list"></datalist>
+      <button class="link-button" id="clear">Clear selection</button>
+    </div>
+  </div>
+  <div class="selection" id="selection-info"></div>
+
+  <h2>1. Exports by industry</h2>
+  <p>Industries are sorted by their total exports, largest first. Each row holds the products of one industry.</p>
+  <div class="chart" id="chart-industry"></div>
+
+  <h2>2. Exports by product complexity (PCI)</h2>
+  <p>Higher = the product needs more know-how to make. Use the buttons to show only some industries,
+    or only products in which Puerto Rico is competitive (RCA ≥ 1).</p>
+  <div class="group">
+    <div class="segmented" id="rca">
+      <button data-value="all" aria-pressed="true">All products</button>
+      <button data-value="rca" aria-pressed="false">Only competitive (RCA ≥ 1)</button>
+    </div>
+    <button class="link-button" id="all-sectors">Show all industries</button>
+  </div>
+  <div class="chips" id="sector-chips"></div>
+  <div class="chart" id="chart-pci"></div>
+
+  <footer>
+    <p><strong>Sources.</strong> Puerto Rico exports: Puerto Rico Institute of Statistics (IEPR), detailed
+      external trade database, based on U.S. Census Bureau records. World trade and Product Complexity Index:
+      Atlas of Economic Complexity, Harvard Growth Lab (HS92, 4-digit products).</p>
+    <p><strong>Notes.</strong> Values in current US$. "U.S." = shipments to the United States (including
+      the U.S. Virgin Islands, under 0.5% of the value), which are not exports in U.S. trade statistics. RCA compares
+      Puerto Rico's export basket with world trade; with "Foreign countries" it uses foreign exports only,
+      otherwise all destinations. Product-years below $0.1M are left out.</p>
+  </footer>
+</main>
+
+<script>
+const DATA = /*DATA*/null;
+
+// ------------------------------------------------------------------ setup
+const STYLE = { font: "Inter, Helvetica, Arial, sans-serif", maxBubblePx: 46, minValue: 0.1 };
+const PLOT_CONFIG = { responsive: true, displayModeBar: false };
+const products = DATA.products.map(([code, name, sector]) => ({ code, name, sector }));
+const rows = DATA.rows.product.map((p, i) => ({
+  product: p, year: DATA.rows.year[i], foreign: DATA.rows.foreign[i], us: DATA.rows.us[i],
+  total: DATA.rows.foreign[i] + DATA.rows.us[i], rcaForeign: DATA.rows.rcaForeign[i],
+  rcaTotal: DATA.rows.rcaTotal[i], pci: DATA.rows.pci[i],
+}));
+const sectorIndex = Object.fromEntries(DATA.sectors.map((s, i) => [s.name, i]));
+const sectorColor = Object.fromEntries(DATA.sectors.map(s => [s.name, s.color]));
+
+const state = {
+  destination: "total",    // total | foreign | us
+  rcaOnly: false,          // PCI chart: only RCA >= 1
+  hiddenSectors: new Set(),// PCI chart: industries switched off
+  selected: null,          // index into products, or null
+};
+
+// ------------------------------------------------------------------ helpers
+/** Stable offset in [-0.5, 0.5) per text, so a product keeps its place in every year. */
+function jitter(text) {
+  let h = 2166136261;
+  for (const ch of text) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+  h ^= h >>> 16; h = Math.imul(h, 2246822507); h ^= h >>> 13; h = Math.imul(h, 3266489909); h ^= h >>> 16;
+  return ((h >>> 0) % 1000) / 1000 - 0.5;  // the mixing above keeps x and y offsets independent
+}
+const value = r => r[state.destination];
+const rcaOf = r => (state.destination === "foreign" ? r.rcaForeign : r.rcaTotal);
+const money = m => (m >= 1000 ? `$${(m / 1000).toFixed(2)}B` : `$${m.toFixed(1)}M`);
+
+function hoverText(r) {
+  const p = products[r.product];
+  return `<b>${p.name}</b> (${p.code})<br>${p.sector} · ${r.year}<br>` +
+         `Exports: ${money(value(r))}<br>foreign ${money(r.foreign)} · U.S. ${money(r.us)}<br>` +
+         `PCI ${r.pci.toFixed(2)} · RCA ${rcaOf(r).toFixed(2)}`;
+}
+
+/** One trace per industry. With a selection, the selected product is solid and the rest dimmed. */
+function sectorTraces(points, position) {
+  const sizeref = 2 * rows.reduce((m, r) => Math.max(m, value(r)), 0) / STYLE.maxBubblePx ** 2;  // same scale in both charts
+  return DATA.sectors.map(s => {
+    const pts = points.filter(r => products[r.product].sector === s.name);
+    const xy = pts.map(position);
+    return {
+      type: "scattergl", mode: "markers",
+      x: xy.map(d => d[0]), y: xy.map(d => d[1]), customdata: pts.map(r => r.product),
+      text: pts.map(hoverText), hovertemplate: "%{text}<extra></extra>",
+      marker: { color: s.color, size: pts.map(value), sizemode: "area", sizemin: 2, sizeref, line: { width: 0 },
+                opacity: pts.map(r => (state.selected === null ? 0.7 : r.product === state.selected ? 1 : 0.08)) },
+    };
+  });
+}
+
+/** Line through the selected product's bubbles, in its industry colour. */
+function selectionTrace(points, position) {
+  const pts = points.filter(r => r.product === state.selected).sort((a, b) => a.year - b.year);
+  const xy = pts.map(position);
+  const color = state.selected === null ? null : sectorColor[products[state.selected].sector];
+  return { type: "scattergl", mode: "lines", x: xy.map(d => d[0]), y: xy.map(d => d[1]),
+           line: { color, width: 2 }, hoverinfo: "skip" };
+}
+
+/** Draw one chart: bubbles per industry plus the selection line. */
+function draw(id, points, position, layout) {
+  Plotly.react(id, [...sectorTraces(points, position), selectionTrace(points, position)], Object.assign({
+    margin: { l: 60, r: 20, t: 10, b: 40 }, showlegend: false, hovermode: "closest",
+    font: { family: STYLE.font, color: "#343A40" },
+    xaxis: { dtick: 2, showgrid: false, zeroline: false, range: [DATA.years[0] - 0.7, DATA.years.at(-1) + 0.7] },
+  }, layout), PLOT_CONFIG);
+}
+
+// ------------------------------------------------------------------ charts
+function drawIndustry() {
+  const points = rows.filter(r => value(r) >= STYLE.minValue);
+  const code = r => products[r.product].code;
+  const position = r => [r.year + 0.6 * jitter(code(r)), sectorIndex[products[r.product].sector] + 0.7 * jitter("y" + code(r))];
+  draw("chart-industry", points, position, {
+    margin: { l: 110, r: 20, t: 24, b: 40 },
+    yaxis: { tickvals: DATA.sectors.map((_, i) => i), range: [DATA.sectors.length - 0.5, -0.5],
+             showgrid: false, zeroline: false,
+             ticktext: DATA.sectors.map(s => `<b><span style="color:${s.color}">●</span> ${s.name}</b>`) },
+  });
+}
+
+function drawPci() {
+  const shown = r => r.product === state.selected ||  // a selected product is always shown
+    (!state.hiddenSectors.has(products[r.product].sector) && (!state.rcaOnly || rcaOf(r) >= 1));
+  const points = rows.filter(r => value(r) >= STYLE.minValue && shown(r));
+  const position = r => [r.year + 0.6 * jitter(products[r.product].code), r.pci];
+  draw("chart-pci", points, position, {
+    yaxis: { title: { text: "Product Complexity Index (PCI)" }, zeroline: true, zerolinecolor: "#DDE1E5",
+             gridcolor: "#F4F4F4" },
+  });
+}
+
+// ------------------------------------------------------------------ controls
+function describeSelection() {
+  const box = document.getElementById("selection-info");
+  if (state.selected === null) { box.textContent = ""; return; }
+  const p = products[state.selected];
+  const own = rows.filter(r => r.product === state.selected).sort((a, b) => a.year - b.year);
+  const last = own.at(-1);
+  box.innerHTML = `Selected: <strong>${p.name}</strong> (HS ${p.code}, ${p.sector}). ` +
+    `Exported in ${own.length} of ${DATA.years.length} years. In ${last.year}: ` +
+    `${money(last.foreign)} to foreign countries, ${money(last.us)} to the U.S.; ` +
+    `PCI ${last.pci.toFixed(2)}, RCA ${rcaOf(last).toFixed(2)}.`;
+}
+
+function render() {
+  drawIndustry();
+  drawPci();
+  describeSelection();
+  document.querySelectorAll("#sector-chips .chip").forEach(chip =>
+    chip.setAttribute("aria-pressed", String(!state.hiddenSectors.has(chip.dataset.sector))));
+}
+
+function select(product) {
+  state.selected = product === state.selected ? null : product;  // clicking again unselects
+  document.getElementById("search").value = "";
+  render();
+}
+
+/** Segmented buttons: one is pressed; onChange gets its data-value. */
+function segmented(id, onChange) {
+  const buttons = document.querySelectorAll(`#${id} button`);
+  buttons.forEach(b => b.addEventListener("click", () => {
+    buttons.forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    onChange(b.dataset.value);
+    render();
+  }));
+}
+
+function setupControls() {
+  segmented("destination", v => { state.destination = v; });
+  segmented("rca", v => { state.rcaOnly = v === "rca"; });
+
+  const chips = document.getElementById("sector-chips");
+  DATA.sectors.forEach(s => {
+    const chip = document.createElement("button");
+    chip.className = "chip";
+    chip.dataset.sector = s.name;
+    chip.innerHTML = `<span class="dot" style="background:${s.color}"></span>${s.name}`;
+    chip.addEventListener("click", () => {
+      state.hiddenSectors.has(s.name) ? state.hiddenSectors.delete(s.name) : state.hiddenSectors.add(s.name);
+      render();
+    });
+    chips.appendChild(chip);
+  });
+  document.getElementById("all-sectors").addEventListener("click", () => { state.hiddenSectors.clear(); render(); });
+
+  const list = document.getElementById("product-list");
+  list.innerHTML = products.map(p => `<option value="${p.code} · ${p.name.replace(/"/g, "&quot;")}">`).join("");
+  document.getElementById("search").addEventListener("change", e => {
+    const code = e.target.value.trim().slice(0, 4);
+    const i = products.findIndex(p => p.code === code);
+    if (i >= 0) { state.selected = null; select(i); e.target.value = `${products[i].code} · ${products[i].name}`; }
+  });
+  document.getElementById("clear").addEventListener("click", () => { state.selected = null; render(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { state.selected = null; render(); } });
+}
+
+setupControls();
+render();
+for (const id of ["chart-industry", "chart-pci"]) {
+  document.getElementById(id).on("plotly_click", ev => {
+    const p = ev.points[0].customdata;
+    if (p !== undefined) select(p);
+  });
+}
+</script>
+</body>
+</html>
